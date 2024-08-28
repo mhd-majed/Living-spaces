@@ -1,0 +1,142 @@
+﻿body {
+    background: #f5f5f5;
+    margin-top: 20px;
+}
+
+.ui-w-80 {
+    width: 80px !important;
+    height: auto;
+}
+
+
+label.btn {
+    margin-bottom: 0;
+}
+
+
+.btn {
+    cursor: pointer;
+}
+
+.text-light {
+    color: #babbbc !important;
+}
+
+
+
+.card {
+    background-clip: padding-box;
+    background-color: #fafafa;
+}
+
+.row-bordered {
+    overflow: hidden;
+}
+
+.account-settings-fileinput {
+    position: absolute;
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.account-settings-links .list-group-item.active {
+    font-weight: bold !important;
+}
+
+html:not(.dark-style) .account-settings-links .list-group-item.active {
+    background: transparent !important;
+}
+
+.account-settings-multiselect ~ .select2-container {
+    width: 100% !important;
+}
+
+.light-style .account-settings-links .list-group-item {
+    padding: 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+    .light-style .account-settings-links .list-group-item.active {
+        color: #4e5155 !important;
+    }
+
+.material-style .account-settings-links .list-group-item {
+    padding: 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+    .material-style .account-settings-links .list-group-item.active {
+        color: #4e5155 !important;
+    }
+
+.dark-style .account-settings-links .list-group-item {
+    padding: 0.85rem 1.5rem;
+    border-color: rgba(255, 255, 255, 0.03) !important;
+}
+
+    .dark-style .account-settings-links .list-group-item.active {
+        color: #fff !important;
+    }
+
+.light-style .account-settings-links .list-group-item.active {
+    color: #4E5155 !important;
+}
+
+.light-style .account-settings-links .list-group-item {
+    padding: 0.85rem 1.5rem;
+    border-color: rgba(24,28,33,0.03) !important;
+}
+
+.custom-container {
+    min-height: 65vh;
+    padding-bottom: 20px;
+    background: #f5f5f5;
+    padding-top: 90px;
+}
+
+
+
+table td,
+table th {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f5f5f5; 
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #fafafa;
+}
+
+thead th {
+    color: #fff;
+}
+
+.card {
+    border-radius: .5rem;
+}
+
+.table-scroll {
+    border-radius: .5rem;
+}
+
+    .table-scroll table thead th {
+        font-size: 1.25rem;
+    }
+
+thead {
+    top: 0;
+    position: sticky;
+}
+.custom-color {
+
+    background-color: #1e2a30;
+}
+
+.custom-color:hover {
+    background-color: #ee626b;
+}

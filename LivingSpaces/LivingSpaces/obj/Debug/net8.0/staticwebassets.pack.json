@@ -1,0 +1,2565 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LivingSpaces.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LivingSpaces.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\css\\admin.css",
+      "PackagePath": "staticwebassets\\admin\\css\\css\\admin.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\css\\mdb.dark.min.css",
+      "PackagePath": "staticwebassets\\admin\\css\\css\\mdb.dark.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\css\\mdb.dark.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\css\\css\\mdb.dark.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\css\\mdb.dark.rtl.min.css",
+      "PackagePath": "staticwebassets\\admin\\css\\css\\mdb.dark.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\css\\mdb.min.css",
+      "PackagePath": "staticwebassets\\admin\\css\\css\\mdb.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\css\\mdb.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\css\\css\\mdb.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\css\\mdb.rtl.min.css",
+      "PackagePath": "staticwebassets\\admin\\css\\css\\mdb.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\img\\mdb-favicon.ico",
+      "PackagePath": "staticwebassets\\admin\\css\\img\\mdb-favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\js\\admin.js",
+      "PackagePath": "staticwebassets\\admin\\css\\js\\admin.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\js\\mdb.es.min.js",
+      "PackagePath": "staticwebassets\\admin\\css\\js\\mdb.es.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\js\\mdb.es.min.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\js\\mdb.es.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\js\\mdb.umd.min.js",
+      "PackagePath": "staticwebassets\\admin\\css\\js\\mdb.umd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\js\\mdb.umd.min.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\js\\mdb.umd.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\autoinit\\callbacks\\free.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\autoinit\\callbacks\\free.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\autoinit\\index.free.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\autoinit\\index.free.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\autoinit\\init.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\autoinit\\init.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\autoinit\\initSelectors\\free.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\autoinit\\initSelectors\\free.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\alert.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\alert.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\alert.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\alert.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\base-component.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\base-component.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\base-component.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\base-component.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\button.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\button.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\button.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\button.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\carousel.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\carousel.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\carousel.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\collapse.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\collapse.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\collapse.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\dom\\data.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\dom\\data.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\dom\\data.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\dom\\data.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\dom\\event-handler.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\dom\\event-handler.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\dom\\event-handler.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\dom\\event-handler.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\dom\\manipulator.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\dom\\manipulator.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\dom\\manipulator.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\dom\\manipulator.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\dom\\selector-engine.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\dom\\selector-engine.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\dom\\selector-engine.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\dom\\selector-engine.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\dropdown.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\dropdown.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\dropdown.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\dropdown.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\modal.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\modal.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\modal.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\modal.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\offcanvas.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\offcanvas.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\offcanvas.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\offcanvas.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\popover.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\popover.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\popover.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\popover.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\scrollspy.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\scrollspy.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\scrollspy.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\scrollspy.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\tab.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\tab.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\tab.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\tab.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\toast.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\toast.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\toast.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\toast.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\tooltip.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\tooltip.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\tooltip.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\util\\backdrop.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\util\\backdrop.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\util\\backdrop.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\util\\backdrop.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\util\\component-functions.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\util\\component-functions.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\util\\component-functions.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\util\\component-functions.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\util\\config.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\util\\config.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\util\\config.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\util\\config.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\util\\focustrap.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\util\\focustrap.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\util\\focustrap.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\util\\focustrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\util\\index.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\util\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\util\\index.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\util\\index.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\util\\sanitizer.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\util\\sanitizer.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\util\\sanitizer.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\util\\sanitizer.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\util\\scrollbar.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\util\\scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\util\\scrollbar.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\util\\scrollbar.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\util\\swipe.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\util\\swipe.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\util\\swipe.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\util\\swipe.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\util\\template-factory.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\util\\template-factory.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\dist\\util\\template-factory.js.map",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\dist\\util\\template-factory.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\alert.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\alert.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\base-component.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\base-component.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\button.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\button.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\carousel.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\collapse.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\dom\\data.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\dom\\data.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\dom\\event-handler.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\dom\\event-handler.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\dom\\manipulator.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\dom\\manipulator.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\dom\\selector-engine.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\dom\\selector-engine.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\dropdown.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\dropdown.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\modal.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\modal.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\offcanvas.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\offcanvas.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\popover.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\popover.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\scrollspy.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\scrollspy.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\tab.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\tab.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\toast.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\toast.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\tooltip.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\util\\backdrop.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\util\\backdrop.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\util\\component-functions.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\util\\component-functions.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\util\\config.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\util\\config.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\util\\focustrap.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\util\\focustrap.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\util\\index.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\util\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\util\\sanitizer.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\util\\sanitizer.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\util\\scrollbar.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\util\\scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\util\\swipe.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\util\\swipe.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\util\\template-factory.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\mdb-prefix\\util\\template-factory.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\alert.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\alert.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\base-component.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\base-component.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\button.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\button.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\carousel.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\collapse.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\dom\\data.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\dom\\data.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\dom\\event-handler.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\dom\\event-handler.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\dom\\manipulator.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\dom\\manipulator.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\dom\\selector-engine.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\dom\\selector-engine.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\dropdown.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\dropdown.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\modal.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\modal.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\offcanvas.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\offcanvas.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\popover.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\popover.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\scrollspy.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\scrollspy.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\tab.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\tab.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\toast.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\toast.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\tooltip.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\util\\backdrop.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\util\\backdrop.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\util\\component-functions.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\util\\component-functions.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\util\\config.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\util\\config.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\util\\focustrap.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\util\\focustrap.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\util\\index.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\util\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\util\\sanitizer.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\util\\sanitizer.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\util\\scrollbar.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\util\\scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\util\\swipe.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\util\\swipe.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\bootstrap\\src\\util\\template-factory.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\bootstrap\\src\\util\\template-factory.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\free\\alert.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\free\\alert.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\free\\base-component.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\free\\base-component.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\free\\button.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\free\\button.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\free\\carousel.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\free\\carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\free\\collapse.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\free\\collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\free\\dropdown.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\free\\dropdown.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\free\\input.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\free\\input.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\free\\modal.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\free\\modal.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\free\\popover.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\free\\popover.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\free\\range.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\free\\range.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\free\\ripple.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\free\\ripple.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\free\\scrollspy.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\free\\scrollspy.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\free\\tab.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\free\\tab.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\free\\toast.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\free\\toast.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\free\\tooltip.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\free\\tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb.free.es.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb.free.es.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb.free.umd.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb.free.umd.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\dom\\data.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\dom\\data.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\dom\\event-handler.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\dom\\event-handler.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\dom\\manipulator.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\dom\\manipulator.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\dom\\selector-engine.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\dom\\selector-engine.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\handlers\\click-rail.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\handlers\\click-rail.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\handlers\\drag-thumb.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\handlers\\drag-thumb.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\handlers\\keyboard.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\handlers\\keyboard.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\handlers\\mouse-wheel.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\handlers\\mouse-wheel.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\handlers\\touch.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\handlers\\touch.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\index.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\lib\\class-names.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\lib\\class-names.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\lib\\css.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\lib\\css.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\lib\\dom.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\lib\\dom.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\lib\\event-manager.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\lib\\event-manager.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\lib\\util.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\lib\\util.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\process-scroll-diff.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\process-scroll-diff.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\update-geometry.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\perfect-scrollbar\\update-geometry.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\util\\focusTrap.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\util\\focusTrap.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\util\\index.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\util\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\util\\keycodes.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\util\\keycodes.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\util\\sanitizer.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\util\\sanitizer.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\util\\scrollbar.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\util\\scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\util\\stack.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\util\\stack.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\util\\touch\\index.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\util\\touch\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\util\\touch\\swipe.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\util\\touch\\swipe.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\js\\mdb\\util\\touch\\touchUtil.js",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\js\\mdb\\util\\touch\\touchUtil.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_accordion.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_alert.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_badge.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_button-group.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_card.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_carousel.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_close.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_containers.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_functions.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_grid.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_helpers.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_images.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_list-group.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_maps.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_maps.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_mixins.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_modal.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_nav.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_navbar.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_pagination.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_placeholders.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_popover.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_progress.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_reboot.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_root.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_spinners.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_tables.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_toasts.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_transitions.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_type.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_variables-dark.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_focus-ring.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_focus-ring.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_icon-link.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_icon-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_color-mode.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_color-mode.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap-rtl-fix\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_accordion.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_containers.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_helpers.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_maps.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_maps.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_placeholders.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_variables-dark.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\helpers\\_focus-ring.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\helpers\\_focus-ring.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\helpers\\_icon-link.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\helpers\\_icon-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_color-mode.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_color-mode.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\custom\\_styles.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\custom\\_styles.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\custom\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\custom\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_accordion.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_alert.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_badge.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_button-group.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_card.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_carousel.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_close.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_colors.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_colors.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_deprecated.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_deprecated.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_flag.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_flag.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_functions.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_images.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_list-group.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_mixins.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_modal.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_nav.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_navbar.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_pagination.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_popover.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_progress.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_range.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_range.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_reboot.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_ripple.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_ripple.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_root.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_scrollspy.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_scrollspy.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_shadows.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_tables.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_toasts.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_type.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_variables-dark.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\forms\\_form-file.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\forms\\_form-file.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\mixins\\_color-mode.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\mixins\\_color-mode.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\mixins\\_ripple.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\mixins\\_ripple.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\free\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\free\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\src\\scss\\mdb.free.scss",
+      "PackagePath": "staticwebassets\\admin\\css\\src\\scss\\mdb.free.scss"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\css\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\assets\\css\\StyleSheet.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\css\\chat.css",
+      "PackagePath": "staticwebassets\\assets\\css\\chat.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\css\\flex-slider.css",
+      "PackagePath": "staticwebassets\\assets\\css\\flex-slider.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\css\\form.css",
+      "PackagePath": "staticwebassets\\assets\\css\\form.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\css\\layout.css",
+      "PackagePath": "staticwebassets\\assets\\css\\layout.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\css\\owl.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\css\\profile.css",
+      "PackagePath": "staticwebassets\\assets\\css\\profile.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\css\\templatemo-villa-agency.css",
+      "PackagePath": "staticwebassets\\assets\\css\\templatemo-villa-agency.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\FAQs-rafiki.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\FAQs-rafiki.svg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\House searching-amico.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\House searching-amico.svg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\Livining.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\Livining.svg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\Top secret-amico.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\Top secret-amico.svg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\User.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\User.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\banner-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\banner-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\banner-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\contact-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\d9af4ccc-27e8-4703-9992-a3c27624f24b.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\d9af4ccc-27e8-4703-9992-a3c27624f24b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\deal-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\deal-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\deal-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\deal-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\deal-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\deal-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\email-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\email-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\featured-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\featured-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\featured.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\featured.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\info-icon-01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\info-icon-01.png"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\info-icon-02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\info-icon-02.png"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\info-icon-03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\info-icon-03.png"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\info-icon-04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\info-icon-04.png"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\page-heading-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\page-heading-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\phone-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\phone-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\property-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\property-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\property-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\property-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\property-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\property-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\property-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\property-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\property-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\property-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\property-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\property-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\single-property.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\single-property.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\video-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\video-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\images\\video-frame.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\video-frame.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\img\\House searching-amico.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\House searching-amico.svg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\js\\counter.js",
+      "PackagePath": "staticwebassets\\assets\\js\\counter.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\js\\isotope.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\isotope.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\js\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\assets\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\profileIamges\\2107818b-e68e-44b4-861d-bf2641f2d560.svg",
+      "PackagePath": "staticwebassets\\profileIamges\\2107818b-e68e-44b4-861d-bf2641f2d560.svg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\profileIamges\\30664ea8-fea8-4e03-870b-8b2473720f7d.jpg",
+      "PackagePath": "staticwebassets\\profileIamges\\30664ea8-fea8-4e03-870b-8b2473720f7d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\profileIamges\\44e9c2cc-d7f3-4434-8624-2b87042d1994.svg",
+      "PackagePath": "staticwebassets\\profileIamges\\44e9c2cc-d7f3-4434-8624-2b87042d1994.svg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\profileIamges\\77ccf8b1-1caa-4747-ae92-e25f3c99d5c4.jpg",
+      "PackagePath": "staticwebassets\\profileIamges\\77ccf8b1-1caa-4747-ae92-e25f3c99d5c4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\profileIamges\\8f590aa0-1152-4ad9-9e2e-bd40bac7bbed.jpg",
+      "PackagePath": "staticwebassets\\profileIamges\\8f590aa0-1152-4ad9-9e2e-bd40bac7bbed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\profileIamges\\a007364c-cd01-4121-8deb-09ab44570e87.jpg",
+      "PackagePath": "staticwebassets\\profileIamges\\a007364c-cd01-4121-8deb-09ab44570e87.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\profileIamges\\e1b09d91-dafa-4262-87f0-c681383f3e69.svg",
+      "PackagePath": "staticwebassets\\profileIamges\\e1b09d91-dafa-4262-87f0-c681383f3e69.svg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\profileIamges\\e7e90066-a209-4e42-9842-fe978829df52.jpg",
+      "PackagePath": "staticwebassets\\profileIamges\\e7e90066-a209-4e42-9842-fe978829df52.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\profileIamges\\e97f3430-4e78-4255-9a45-48cb11541e84.jpg",
+      "PackagePath": "staticwebassets\\profileIamges\\e97f3430-4e78-4255-9a45-48cb11541e84.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\profileIamges\\e9941460-f88d-4a92-afaa-19c0fa965ad1.png",
+      "PackagePath": "staticwebassets\\profileIamges\\e9941460-f88d-4a92-afaa-19c0fa965ad1.png"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\profileIamges\\eea7cd4c-4be4-4abd-90c7-46d55959c038.svg",
+      "PackagePath": "staticwebassets\\profileIamges\\eea7cd4c-4be4-4abd-90c7-46d55959c038.svg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\01cdc0e3-1f24-4669-8cfb-af9c678b24e3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\01cdc0e3-1f24-4669-8cfb-af9c678b24e3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\01f3cc2d-4a6a-433b-9df7-65e34b8cacc6.jpg",
+      "PackagePath": "staticwebassets\\uploads\\01f3cc2d-4a6a-433b-9df7-65e34b8cacc6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\09debe7e-e48a-40cf-a124-30c40722c381.jpg",
+      "PackagePath": "staticwebassets\\uploads\\09debe7e-e48a-40cf-a124-30c40722c381.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\0a3fa89a-6911-4077-b55e-8388a04a2bfa.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0a3fa89a-6911-4077-b55e-8388a04a2bfa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\11caa889-e102-43dc-814e-58f9039102cf.png",
+      "PackagePath": "staticwebassets\\uploads\\11caa889-e102-43dc-814e-58f9039102cf.png"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\174d890d-360e-4bb8-be10-cbae7d55e87e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\174d890d-360e-4bb8-be10-cbae7d55e87e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\18cbb88c-71c6-4490-a217-fd4345c9286f.jpg",
+      "PackagePath": "staticwebassets\\uploads\\18cbb88c-71c6-4490-a217-fd4345c9286f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\1a52bcac-ce1a-402c-8dbe-2adb915cad05.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1a52bcac-ce1a-402c-8dbe-2adb915cad05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\1c20f0c9-7d3e-41dd-bb8f-fb1ae43235b2.png",
+      "PackagePath": "staticwebassets\\uploads\\1c20f0c9-7d3e-41dd-bb8f-fb1ae43235b2.png"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\1c94baf5-ab9c-49a0-a731-1b061027dec7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1c94baf5-ab9c-49a0-a731-1b061027dec7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\2400f26f-8de9-48ce-aafd-b3ac4ca1b0d6.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2400f26f-8de9-48ce-aafd-b3ac4ca1b0d6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\240c2331-a480-4259-bdd6-0a9bf27d543a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\240c2331-a480-4259-bdd6-0a9bf27d543a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\24745fb7-dac6-4379-9c63-4c477f967dc5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\24745fb7-dac6-4379-9c63-4c477f967dc5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\249a608a-57a2-424f-8028-3dc3506bd60a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\249a608a-57a2-424f-8028-3dc3506bd60a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\253c39af-e206-496e-b1d0-0f031d0604e7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\253c39af-e206-496e-b1d0-0f031d0604e7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\2ad1fd4b-5387-4091-8251-85f36ff9a60f.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2ad1fd4b-5387-4091-8251-85f36ff9a60f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\2ea7bb5f-e7d3-4d8e-8247-a949105d8c60.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2ea7bb5f-e7d3-4d8e-8247-a949105d8c60.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\31337f41-6553-42a7-bba7-f50bb23ebe91.jpg",
+      "PackagePath": "staticwebassets\\uploads\\31337f41-6553-42a7-bba7-f50bb23ebe91.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\31dcbe63-2aa4-475e-99a5-ea52390da50a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\31dcbe63-2aa4-475e-99a5-ea52390da50a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\3567523a-133a-4281-b026-84c60a5209d1.png",
+      "PackagePath": "staticwebassets\\uploads\\3567523a-133a-4281-b026-84c60a5209d1.png"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\381fcf6b-125a-41d2-a4e9-1d33c7b2e8a4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\381fcf6b-125a-41d2-a4e9-1d33c7b2e8a4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\3a3a4609-1fee-485f-99f8-72331f8ae19d.png",
+      "PackagePath": "staticwebassets\\uploads\\3a3a4609-1fee-485f-99f8-72331f8ae19d.png"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\40d835f7-2fdc-4c63-a757-eb3b1754b551.jpg",
+      "PackagePath": "staticwebassets\\uploads\\40d835f7-2fdc-4c63-a757-eb3b1754b551.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\42e0a276-a967-4a07-a5e9-cab9bd744f5d.jpg",
+      "PackagePath": "staticwebassets\\uploads\\42e0a276-a967-4a07-a5e9-cab9bd744f5d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\46014cdd-003b-449b-afc9-8f1c0dcbf1f0.jpg",
+      "PackagePath": "staticwebassets\\uploads\\46014cdd-003b-449b-afc9-8f1c0dcbf1f0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\4bab064a-3cd6-42e9-ab67-169da47390b1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\4bab064a-3cd6-42e9-ab67-169da47390b1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\4c761591-ec0e-42ed-b01e-beebe2fb778f.jpg",
+      "PackagePath": "staticwebassets\\uploads\\4c761591-ec0e-42ed-b01e-beebe2fb778f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\4f6b7a79-9536-4888-878d-f1d5efbf3855.jpg",
+      "PackagePath": "staticwebassets\\uploads\\4f6b7a79-9536-4888-878d-f1d5efbf3855.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\51b7c12d-d43f-48d2-ac7b-b20357e317a9.jpg",
+      "PackagePath": "staticwebassets\\uploads\\51b7c12d-d43f-48d2-ac7b-b20357e317a9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\51ba981a-0abf-417d-9c0c-a66d030fcfa3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\51ba981a-0abf-417d-9c0c-a66d030fcfa3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\550c8d08-9104-49bb-bcef-c13269e874c3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\550c8d08-9104-49bb-bcef-c13269e874c3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\55f6048a-887c-48aa-9ec5-b25680c9c5f3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\55f6048a-887c-48aa-9ec5-b25680c9c5f3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\585fa4e4-c2c4-4e91-8b03-6404ed0cb649.jpg",
+      "PackagePath": "staticwebassets\\uploads\\585fa4e4-c2c4-4e91-8b03-6404ed0cb649.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\5b27ee18-05f9-44bd-9995-830443a7abd7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5b27ee18-05f9-44bd-9995-830443a7abd7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\5ebcd1f8-aacd-4567-95ad-8733eee019d9.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5ebcd1f8-aacd-4567-95ad-8733eee019d9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\5ef8079b-ef8b-4a9f-968b-9cc61eb372e5.png",
+      "PackagePath": "staticwebassets\\uploads\\5ef8079b-ef8b-4a9f-968b-9cc61eb372e5.png"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\64fca774-28e2-4f9f-9a7b-f44b1f6957ea.jpg",
+      "PackagePath": "staticwebassets\\uploads\\64fca774-28e2-4f9f-9a7b-f44b1f6957ea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\6b5d59d5-6806-4a92-b84a-cecd0d3ec842.png",
+      "PackagePath": "staticwebassets\\uploads\\6b5d59d5-6806-4a92-b84a-cecd0d3ec842.png"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\6bf5cca9-fb3e-4f1b-a573-33ad46b9f9e7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\6bf5cca9-fb3e-4f1b-a573-33ad46b9f9e7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\6ff769e7-1568-4004-a6dc-0e881395b24b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\6ff769e7-1568-4004-a6dc-0e881395b24b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\73852aed-92b0-439b-a170-3b29b9f48957.jpg",
+      "PackagePath": "staticwebassets\\uploads\\73852aed-92b0-439b-a170-3b29b9f48957.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\78f7e7a8-4e49-4e7f-b73b-65f6bd4bdcd8.jpg",
+      "PackagePath": "staticwebassets\\uploads\\78f7e7a8-4e49-4e7f-b73b-65f6bd4bdcd8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\7b26bd76-d4d6-4815-b631-f13156a403ae.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7b26bd76-d4d6-4815-b631-f13156a403ae.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\7d8513b8-1cf0-4c18-a7e5-b90b384f5156.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7d8513b8-1cf0-4c18-a7e5-b90b384f5156.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\808b87ca-b036-43b7-a3ed-f1da0310c755.jpg",
+      "PackagePath": "staticwebassets\\uploads\\808b87ca-b036-43b7-a3ed-f1da0310c755.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\80f5d113-6962-485a-b705-795cba87da5a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\80f5d113-6962-485a-b705-795cba87da5a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\82fb1b11-6684-4a02-83ab-dea261d4a2c1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\82fb1b11-6684-4a02-83ab-dea261d4a2c1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\89332f9c-9656-4368-9150-66cfbc182792.png",
+      "PackagePath": "staticwebassets\\uploads\\89332f9c-9656-4368-9150-66cfbc182792.png"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\8a77f1ad-9ae0-4e0b-94cc-57dc5c226897.jpg",
+      "PackagePath": "staticwebassets\\uploads\\8a77f1ad-9ae0-4e0b-94cc-57dc5c226897.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\8c34676e-3241-491e-8454-f958e33147a3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\8c34676e-3241-491e-8454-f958e33147a3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\8f966118-7142-4213-936c-960a2d3b1edf.jpg",
+      "PackagePath": "staticwebassets\\uploads\\8f966118-7142-4213-936c-960a2d3b1edf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\90edecec-d35d-4c8f-a0b5-1b5d6c88727e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\90edecec-d35d-4c8f-a0b5-1b5d6c88727e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\91d113da-1c2e-49dc-8280-f7203da5db27.jpg",
+      "PackagePath": "staticwebassets\\uploads\\91d113da-1c2e-49dc-8280-f7203da5db27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\91e0d38e-14c3-4b34-9947-0cd02603cc15.jpg",
+      "PackagePath": "staticwebassets\\uploads\\91e0d38e-14c3-4b34-9947-0cd02603cc15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\93317c6b-76ba-4c96-966b-a2740e53366c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\93317c6b-76ba-4c96-966b-a2740e53366c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\98521cfe-0358-4077-90d6-0ccafadeab29.jpg",
+      "PackagePath": "staticwebassets\\uploads\\98521cfe-0358-4077-90d6-0ccafadeab29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\98827e45-2eb9-455a-ba33-4dc41e922b0b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\98827e45-2eb9-455a-ba33-4dc41e922b0b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\9a3fbf60-2faf-4a42-a88a-af5c5957d973.jpg",
+      "PackagePath": "staticwebassets\\uploads\\9a3fbf60-2faf-4a42-a88a-af5c5957d973.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\9d34a5d1-5d7c-4fd2-b78c-656c6be18792.jpg",
+      "PackagePath": "staticwebassets\\uploads\\9d34a5d1-5d7c-4fd2-b78c-656c6be18792.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\Samsung Galaxy Watch5 LTE_01.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Samsung Galaxy Watch5 LTE_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\Samsung Galaxy Watch5 LTE_02.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Samsung Galaxy Watch5 LTE_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\a11f6123-a4e5-46c6-b2c4-a7eec05c96e9.svg",
+      "PackagePath": "staticwebassets\\uploads\\a11f6123-a4e5-46c6-b2c4-a7eec05c96e9.svg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\a1ac705f-53c2-4ce9-a11b-128e19fd6393.jpg",
+      "PackagePath": "staticwebassets\\uploads\\a1ac705f-53c2-4ce9-a11b-128e19fd6393.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\a3503c61-947c-4278-969a-8426a3ea9046.jpg",
+      "PackagePath": "staticwebassets\\uploads\\a3503c61-947c-4278-969a-8426a3ea9046.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\a4db888e-c3e0-463e-8a54-743bc3ced95b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\a4db888e-c3e0-463e-8a54-743bc3ced95b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\a50fa548-27d1-41d7-9d2d-1502ca75a425.png",
+      "PackagePath": "staticwebassets\\uploads\\a50fa548-27d1-41d7-9d2d-1502ca75a425.png"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\a51846b5-e3ab-4146-b3e5-bffb184ae121.jpg",
+      "PackagePath": "staticwebassets\\uploads\\a51846b5-e3ab-4146-b3e5-bffb184ae121.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\ac22948b-6946-4e76-aadb-5a687b3480e9.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ac22948b-6946-4e76-aadb-5a687b3480e9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\af920d4d-fb23-4071-b955-fecf80fc334f.jpg",
+      "PackagePath": "staticwebassets\\uploads\\af920d4d-fb23-4071-b955-fecf80fc334f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\b204b731-3263-4e33-a7ec-c0c2c4f86930.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b204b731-3263-4e33-a7ec-c0c2c4f86930.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\be581dec-4c3b-4520-a65f-8e6bd5657f9a.png",
+      "PackagePath": "staticwebassets\\uploads\\be581dec-4c3b-4520-a65f-8e6bd5657f9a.png"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\bf95140f-4cc4-4a4a-b7aa-d154c725c965.jpg",
+      "PackagePath": "staticwebassets\\uploads\\bf95140f-4cc4-4a4a-b7aa-d154c725c965.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\boAt Wave Stride Voice-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\boAt Wave Stride Voice-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\c30bae72-fdaf-46e9-afc1-31eb90dd37d6.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c30bae72-fdaf-46e9-afc1-31eb90dd37d6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\c6c8087c-346b-4203-854b-9a486e51b495.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c6c8087c-346b-4203-854b-9a486e51b495.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\c8420fc0-381e-45ca-bccb-d526793d08c2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c8420fc0-381e-45ca-bccb-d526793d08c2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\c91161f4-ffe6-4b3f-8c70-4b439a76dd0a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c91161f4-ffe6-4b3f-8c70-4b439a76dd0a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\ce6dee07-cf24-4517-b0bc-ce84fbadc80e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ce6dee07-cf24-4517-b0bc-ce84fbadc80e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\cf39c719-9f62-48f5-934a-7636794abc7e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\cf39c719-9f62-48f5-934a-7636794abc7e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\cfa57ee7-54c5-4501-acc8-3161b7a1878e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\cfa57ee7-54c5-4501-acc8-3161b7a1878e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\d19e4437-4977-405e-b2c2-13be684a34cb.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d19e4437-4977-405e-b2c2-13be684a34cb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\d1ed3d18-af3f-42b5-9494-f821df7bc163.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d1ed3d18-af3f-42b5-9494-f821df7bc163.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\d3658606-b7ac-4d7f-a4fa-a71cf3685044.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d3658606-b7ac-4d7f-a4fa-a71cf3685044.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\d4d9d90e-9d11-460b-a30c-86841ab9b89c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d4d9d90e-9d11-460b-a30c-86841ab9b89c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\d668f59f-9ed4-4f48-9d17-40ff3c05458e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d668f59f-9ed4-4f48-9d17-40ff3c05458e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\d7de3711-9ebb-4186-8172-6e41d355af13.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d7de3711-9ebb-4186-8172-6e41d355af13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\d8a1dfd8-af7a-4041-8585-5558cf865844.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d8a1dfd8-af7a-4041-8585-5558cf865844.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\d9c709f1-6d5a-49f9-aeda-9756afd6296f.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d9c709f1-6d5a-49f9-aeda-9756afd6296f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\dd0589db-59b5-43f2-9ee8-8a80ec7ae4d1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\dd0589db-59b5-43f2-9ee8-8a80ec7ae4d1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\e9137022-ea3d-4630-a8f3-641bedc68fda.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e9137022-ea3d-4630-a8f3-641bedc68fda.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\ebf10ea9-f2c4-4fa7-b731-72223054efdf.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ebf10ea9-f2c4-4fa7-b731-72223054efdf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\ee6bd93d-7905-4bf9-b659-6dff1f83d48e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ee6bd93d-7905-4bf9-b659-6dff1f83d48e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\ef4f1430-7560-4fbd-835a-4594dada5b27.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ef4f1430-7560-4fbd-835a-4594dada5b27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\f213f5df-ef19-4cb0-bf6d-be5b4ff9d852.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f213f5df-ef19-4cb0-bf6d-be5b4ff9d852.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\f32d21ea-85b8-4261-ad91-85f9542ad344.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f32d21ea-85b8-4261-ad91-85f9542ad344.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\f5b620b3-c53f-42a0-b8ad-f0102eb5401e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f5b620b3-c53f-42a0-b8ad-f0102eb5401e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\f80ccfd9-4541-403c-94ba-aa9436d4fa14.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f80ccfd9-4541-403c-94ba-aa9436d4fa14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\fadc6306-b6a3-4547-9944-a16629c58501.png",
+      "PackagePath": "staticwebassets\\uploads\\fadc6306-b6a3-4547-9944-a16629c58501.png"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\fb19738f-ca5e-4933-b714-8c2a6ca19053.png",
+      "PackagePath": "staticwebassets\\uploads\\fb19738f-ca5e-4933-b714-8c2a6ca19053.png"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\fc3b10ce-0c12-477f-a7f1-9ce7e3f62a82.jpg",
+      "PackagePath": "staticwebassets\\uploads\\fc3b10ce-0c12-477f-a7f1-9ce7e3f62a82.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\uploads\\ffa37c64-c0c3-4eb4-91d4-9043501c5b24.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ffa37c64-c0c3-4eb4-91d4-9043501c5b24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\vendor\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\vendor\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\vendor\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\vendor\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\vendor\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LivingSpaces.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LivingSpaces.props",
+      "PackagePath": "build\\LivingSpaces.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LivingSpaces.props",
+      "PackagePath": "buildMultiTargeting\\LivingSpaces.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LivingSpaces.props",
+      "PackagePath": "buildTransitive\\LivingSpaces.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

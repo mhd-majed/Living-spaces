@@ -1,0 +1,224 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml"; // Path to your layout file
+}
+<!-- Section: Main chart -->
+<main style="margin-top: 58px">
+    <div class="container pt-4">
+
+        <!--Section: Statistics with subtitles-->
+        <section>
+            <div class="row">
+                <div class="col-xl-6 col-md-12 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between p-md-1">
+                                <div class="d-flex flex-row">
+                                    <div class="align-self-center">
+                                        <i class="fas fa-users text-info fa-3x me-4"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Active Users</h4>
+                                        <p class="mb-0">Current active users</p>
+                                    </div>
+                                </div>
+                                <div class="align-self-center">
+                                    <h2 class="h1 mb-0">@ViewBag.UsersCount</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-12 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between p-md-1">
+                                <div class="d-flex flex-row">
+                                    <div class="align-self-center">
+                                        <i class="fas fa-home text-info fa-3x me-4"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Total Listings</h4>
+                                        <p class="mb-0">Available property listings</p>
+                                    </div>
+                                </div>
+                                <div class="align-self-center">
+                                    <h2 class="h1 mb-0">@ViewBag.ListingsCount</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 col-md-12 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between p-md-1">
+                                <div class="d-flex flex-row">
+                                    <div class="align-self-center">
+                                        <i class="fas fa-user-check text-success fa-3x me-4"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Paid Subscribers</h4>
+                                        <p class="mb-0">Number of paid users</p>
+                                    </div>
+                                </div>
+                                <div class="align-self-center">
+                                    <h2 class="h1 mb-0">@ViewBag.PaidUsersCount</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-12 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between p-md-1">
+                                <div class="d-flex flex-row">
+                                    <div class="align-self-center">
+                                        <i class="fas fa-dollar-sign text-success fa-3x me-4"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Monthly Revenue</h4>
+                                        <p class="mb-0">Revenue from subscriptions</p>
+                                    </div>
+                                </div>
+                                <div class="align-self-center">
+                                    <h2 class="h1 mb-0">@ViewBag.MontlyIncome.ToString("C")</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 col-md-12 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between p-md-1">
+                                <div class="d-flex flex-row">
+                                    <div class="align-self-center">
+                                        <i class="fas fa-star text-warning fa-3x me-4"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Number of Reviews</h4>
+                                        <p class="mb-0">Total reviews received</p>
+                                    </div>
+                                </div>
+                                <div class="align-self-center">
+                                    <h2 class="h1 mb-0">@ViewBag.ReviewsCount</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-12 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between p-md-1">
+                                <div class="d-flex flex-row">
+                                    <div class="align-self-center">
+                                        <i class="far fa-envelope text-warning fa-3x me-4"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Total Messages</h4>
+                                        <p class="mb-0">Messages received</p>
+                                    </div>
+                                </div>
+                                <div class="align-self-center">
+                                    <h2 class="h1 mb-0">@ViewBag.messagesCount</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!--Section: Statistics with subtitles-->
+        <!-- Section: Main chart -->
+        <section class="mb-4">
+            <div class="card">
+                <div class="card-header py-3">
+                    <h5 class="mb-0 text-center"><strong>Sales</strong></h5>
+                </div>
+                <div class="card-body">
+                    <canvas class="my-4 w-100" id="myChart" height="380"></canvas>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+<!-- Section: Main chart -->
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var ctx = document.getElementById("myChart").getContext("2d");
+
+        // Function to fetch data and update chart
+        function fetchMonthlyUserCounts() {
+            fetch('/Admin/GetMonthlyUserCounts')
+                .then(response => response.json())
+                .then(data => {
+
+                    var receivedLabels = data.map(item => item.monthYear);
+                    var receivedCounts = data.map(item => item.count);
+
+                    var now = new Date();
+                    var currentMonth = now.getMonth(); 
+                    var currentYear = now.getFullYear();
+
+                    var months = [];
+                    for (var month = 0; month <= currentMonth; month++) {
+                        months.push(`${month + 1}/${currentYear}`);
+                    }
+
+                    var labels = months;
+                    var counts = months.map(month => {
+                        var index = receivedLabels.indexOf(month);
+                        return index !== -1 ? receivedCounts[index] : 0; 
+                    });
+
+                    var myChart = new Chart(ctx, {
+                        type: "line",
+                        data: {
+                            labels: labels,
+                            datasets: [{
+                                label: 'Number Of New Users',
+                                data: counts,
+                                lineTension: 0,
+                                backgroundColor: "transparent",
+                                borderColor: "#007bff",
+                                borderWidth: 4,
+                                pointBackgroundColor: "#007bff",
+                            }],
+                        },
+                        options: {
+                            scales: {
+                                x: {
+                                    display: true,
+                                    title: {
+                                        display: true,
+                                        text: 'Month/Year'
+                                    }
+                                },
+                                y: {
+                                    beginAtZero: true,
+                                    stepSize: 1,
+                                },
+                            },
+                            plugins: {
+                                legend: {
+                                    display: false,
+                                },
+                            },
+                        },
+                    });
+                })
+                .catch(error => console.error('Error fetching monthly user counts:', error));
+        }
+
+        fetchMonthlyUserCounts();
+    });
+
+</script>

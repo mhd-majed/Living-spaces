@@ -1,0 +1,33 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewBag.Title = "Access Denied";
+}
+
+<link rel="stylesheet" href="~/assets/css/profile.css">
+<style>
+
+
+</style>
+<div class="custom-container container light-style flex-grow-1 container-p-y">
+    <div class="card overflow-hidden">
+        <div class="row no-gutters row-bordered row-border-light">
+            <div class="col-md-12">
+                <div class="tab-content">
+                    <div class="tab-pane fade active show" id="account-general">
+                        <hr class=" border-light m-0">
+                        <div class="card-body" ">
+                            <div class="container text-center mt-5">
+                                <h1 class="display-4">Access Denied</h1>
+                                <img src="@Url.Content("~/assets/images/Top secret-amico.svg")" alt="Top Secret"   style="height:500px"/>
+                                <p class="lead">You do not have permission to view this page.</p>
+                                <a href="@Url.Action("Index", "Home")" class="btn shadow-0 custom-color mt-3" style="color:white">Return to Home</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

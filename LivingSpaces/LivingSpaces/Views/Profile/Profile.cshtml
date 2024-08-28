@@ -1,0 +1,81 @@
+﻿@model LivingSpaces.ViewModels.ProfileViewModel
+
+<link rel="stylesheet" href="~/assets/css/profile.css">
+
+<div class="custom-container container light-style flex-grow-1 container-p-y">
+    <div class="card overflow-hidden">
+        <div class="row no-gutters row-bordered row-border-light">
+            <div class="col-md-3 pt-0">
+                <div class="list-group list-group-flush account-settings-links">
+                    <a class="list-group-item list-group-item-action active" asp-action="Profile">General</a>
+                    <a class="list-group-item list-group-item-action " asp-action="ChangePassword">Change password</a>
+                    <a class="list-group-item list-group-item-action " asp-action="MyProperties">View My Properties</a>
+                    <a class="list-group-item list-group-item-action " asp-action="Subscription">My Subscription</a>
+                    <a class="list-group-item list-group-item-action" asp-action="MyTours">My Tours</a>
+                    <a href="javascript:void(0);" class="list-group-item list-group-item-action" onclick="confirmLogout()">Sign Out</a>
+                    <form id="logoutForm" asp-action="Logout" asp-controller="Accounts" method="post" style="display:none;">
+                        @Html.AntiForgeryToken()
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="tab-content">
+                    <div class="tab-pane fade active show" id="account-general">
+                        <div class="card-body media align-items-center">
+                            <img src="@Model.ProfileImageUrl" alt="User Avatar" class="d-block ui-w-80" style="border-radius:50%">
+                        </div>
+                        <hr class="border-light m-0">
+                        <div class="card-body">
+
+                            <form asp-action="UpdateUserProfile" enctype="multipart/form-data">
+                                <div class="form-group">
+                                    <label asp-for="ProfileImageUrl" class="control-label"></label>
+                                    <input type="file" name="ProfileImage" class="form-control" />
+                                    <span asp-validation-for="ProfileImageUrl" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">First name</label>
+                                    <input type="text" class="form-control mb-1" asp-for="FirstName">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Last name</label>
+                                    <input type="text" class="form-control" asp-for="LastName">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">E-mail</label>
+                                    <input type="text" class="form-control mb-1" asp-for="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Phone number</label>
+                                    <input type="text" class="form-control" asp-for="PhoneNumber">
+                                </div>
+
+                                <div class="text-right mt-3">
+                                    <button type="submit" class="btn btn-primary shadow-0 custom-color">Save changes</button>&nbsp;
+                                    <a asp-action="Profile" class="btn btn-light border">Cancel</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function confirmLogout() {
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "You will be logged out of your session.",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, sign me out!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                document.getElementById('logoutForm').submit();
+            }
+        })
+    }
+</script>

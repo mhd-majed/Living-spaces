@@ -1,0 +1,178 @@
+﻿@model LivingSpaces.ViewModels.UserReviewViewModel
+
+<link rel="stylesheet" href="~/assets/css/profile.css">
+<style>
+    .profile-header img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+
+    .card-custom {
+        border-radius: 15px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .card-custom .status-indicator {
+        width: 4px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .card-custom .status-indicator.open {
+        background-color: #ee626b;
+    }
+
+
+    .card-custom .card-body {
+        display: flex;
+        align-items: center;
+    }
+
+    .card-custom .card-body .content {
+        margin-left: 15px;
+    }
+
+    .card-custom .card-body .content p {
+        margin: 0;
+    }
+
+    i{
+        font-size: 12px;
+    }
+
+    .custom-color {
+        background-color: #3a4a54;
+    }
+
+    .custom-colors{
+        background-color: #ee626b;
+        border-radius: 0.5rem 0.5rem 0 0; 
+        color: #fafafa;
+    }
+
+    .custom-colors:hover{
+        background-color: #f5f5f5;
+    }
+    .actives{
+        background-color: #fafafa;
+        color: #4a4a4a;
+    }
+
+</style>
+<div class="custom-container container light-style flex-grow-1 container-p-y">
+    <div class="card overflow-hidden">
+        <div class="row no-gutters row-bordered row-border-light">
+            <div class="col-md-12">
+                <div class="tab-content">
+                    <div class="tab-pane fade active show" id="account-general">
+                        <hr class=" border-light m-0">
+                        <div class="card-body" style="padding-bottom:0px; background-color:#3a4a54; ">
+                            <div class="profile-header d-flex align-items-center">
+                                <img src="@Model.ApplicationUser.ProfileImageUrl" alt="Profile Picture" class="me-3" >
+                                <div>
+                                    <h2 style="color:white;">@Model.ApplicationUser.FirstName @Model.ApplicationUser.LastName</h2>
+                                    <p style="color:white;">
+                                        @for (int i = 1; i <= 5; i++)
+                                        {
+                                            if (i <= @Model.ApplicationUser.Statistics.AverageRating)
+                                            {
+                                                <i class="fas fa-star" style="color: gold;"></i>
+                                            }
+                                            else
+                                            {
+                                                <i class="far fa-star" style="color: gold;"></i>
+                                            }
+                                        }    (@Model.ApplicationUser.Statistics.RatingCount)
+                                    </p>
+                                </div>
+                                <button type="button" class="btn btn-primary shadow-0 custom-color ms-auto" style="border:1px solid white; " data-bs-toggle="modal" data-bs-target="#reviewModal">Write a Review</button>
+                            </div>
+                            <br />
+                                <a class="btn shadow-0 custom-colors actives" asp-controller="Reviews" asp-action="UserReviews" asp-route-id="@Model.ApplicationUser.Id">Reviews</a>
+                            <a class="btn shadow-0 custom-colors " asp-controller="Reviews" asp-action="UserProperties" asp-route-id="@Model.ApplicationUser.Id">Listings</a>
+
+                            
+                        </div>
+                        <div class="card-body" style="overflow-y:scroll; height:550px;">
+                            @if (Model.UserReviews != null && Model.UserReviews.Any())
+                            {
+                                foreach (var review in Model.UserReviews)
+                                {
+                                    <div class="card card-custom">
+                                        <div class="status-indicator open"></div>
+                                        <div class="card-body">
+                                            <div class="content">
+                                                <p class="fw-bold">sdfds dfsdsf</p>
+                                                <div>
+                                                    @for (int i = 1; i <= 5; i++)
+                                                    {
+                                                        if (i <= review.Rating)
+                                                        {
+                                                            <i class="fas fa-star" style="color: gold;"></i>
+                                                        }
+                                                        else
+                                                        {
+                                                            <i class="far fa-star" style="color: gold;"></i>
+                                                        }
+                                                    }
+                                                    <span class="text-muted" style="font-size: 13px">@review.CreatedAt.ToShortDateString()</span>
+
+                                                </div>                                                
+                                                <p class="text-muted">
+                                                    @review.ReviewText
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            }
+                            else
+                            {
+                                <p>No reviews available for this user.</p>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Review Modal -->
+<div class="modal fade" id="reviewModal" tabindex="-1" aria-labelledby="reviewModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="reviewModalLabel">Write a Review</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="reviewForm" asp-action="SubmitReview" method="post">
+                    <div class="mb-3">
+                        <label for="rating" class="form-label">Rating</label>
+                        <select class="form-select" id="rating" name="Rating" required>
+                            <option value="">Choose...</option>
+                            <option value="1">1 - Poor</option>
+                            <option value="2">2 - Fair</option>
+                            <option value="3">3 - Good</option>
+                            <option value="4">4 - Very Good</option>
+                            <option value="5">5 - Excellent</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="reviewText" class="form-label">Review</label>
+                        <textarea class="form-control" id="reviewText" name="ReviewText" rows="4" maxlength="1000" required></textarea>
+                    </div>
+                    <input type="hidden" name="ReviewedUserID" value="@Model.ApplicationUser.Id" />
+                    <button type="submit" class="btn btn-primary">Submit Review</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

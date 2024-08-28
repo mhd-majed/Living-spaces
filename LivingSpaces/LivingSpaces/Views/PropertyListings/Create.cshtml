@@ -1,0 +1,145 @@
+﻿@model LivingSpaces.Models.PropertyListing
+
+@{
+    ViewData["Title"] = "Create";
+}
+<link rel="stylesheet" href="~/assets/css/profile.css">
+<link href="~/assets/css/form.css" rel="stylesheet" />
+
+ <style>
+
+    .line-green:not(:first-child)::before {
+        background-color: #d1d5d8;
+    }
+
+    .line-blue:not(:first-child)::before {
+        background-color: #d1d5d8;
+    }
+
+    .step-green .step-circle {
+        background-color: #ee626b;
+    }
+
+    .step-blue .step-circle {
+        background-color: #d1d5d8;
+    }
+
+    .step-red .step-circle {
+        background-color: #d1d5d8;
+    }
+
+
+
+</style> 
+
+<div class="custom-container container light-style flex-grow-1 container-p-y">
+    <div class="card overflow-hidden">
+        <div class="row no-gutters row-bordered row-border-light">
+            <div class="col-md-12">
+                <div class="tab-content">
+                    <div class="tab-pane fade active show" id="account-general">
+                        <hr class="border-light m-0">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="progress-container">
+                                        <div class="progress-step step-green">
+                                            <div class="step-circle">
+                                                <i class="fa-solid fa-pen-to-square" style="color:#1e2a30;"></i>
+                                            </div>
+                                            <p>Enter Details</p>
+                                        </div>
+                                        <div class="progress-step line-green step-blue">
+                                            <div class="step-circle">
+                                                <i class="fa-solid fa-arrow-up-from-bracket " style="color:#1e2a30;"></i>
+                                            </div>
+                                            <p>Upload Photos</p>
+                                        </div>
+                                        <div class="progress-step line-black step-black">
+                                            <div class="step-circle">
+                                                <i class="fa-solid fa-calendar" style="color:#1e2a30;"></i>
+                                            </div>
+                                            <p>Set Calender</p>
+                                        </div>
+                                        <div class="progress-step line-blue step-red">
+                                            <div class="step-circle">
+                                                <i class="fa-solid fa-location-dot" style="color:#1e2a30;"></i>
+                                            </div>
+                                            <p>Set Location</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+
+                            <form asp-action="Create">
+
+                                <div class="row">
+
+                                <div class="form-group col-6">
+                                    <label asp-for="PropertyType" class="control-label"></label>
+                                    <select asp-for="PropertyType" class="form-control" asp-items="ViewBag.PropertyType"></select>
+                                    <span asp-validation-for="PropertyType" class="text-danger"></span>
+                                </div>
+                                <div class="form-group col-6">
+                                    <label asp-for="CategoryID" class="control-label"></label>
+                                    <select asp-for="CategoryID" class="form-control" asp-items="ViewBag.CategoryID"></select>
+                                </div>
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                    <div class="form-group col-6">
+                                    <label asp-for="Title" class="control-label"></label>
+                                    <input asp-for="Title" class="form-control" />
+                                    <span asp-validation-for="Title" class="text-danger"></span>
+                                </div>
+                                    <div class="form-group col-6">
+                                    <label asp-for="Description" class="control-label"></label>
+                                    <input asp-for="Description" class="form-control" />
+                                    <span asp-validation-for="Description" class="text-danger"></span>
+                                </div>
+                                    <div class="form-group col-6">
+                                    <label asp-for="Price" class="control-label"></label>
+                                    <input asp-for="Price" class="form-control" />
+                                    <span asp-validation-for="Price" class="text-danger"></span>
+                                </div>
+                                    <div class="form-group col-6">
+                                    <label asp-for="Bedrooms" class="control-label"></label>
+                                    <input asp-for="Bedrooms" class="form-control" />
+                                    <span asp-validation-for="Bedrooms" class="text-danger"></span>
+                                </div>
+                                    <div class="form-group col-6">
+                                    <label asp-for="Bathrooms" class="control-label"></label>
+                                    <input asp-for="Bathrooms" class="form-control" />
+                                    <span asp-validation-for="Bathrooms" class="text-danger"></span>
+                                </div>
+                                    <div class="form-group col-6">
+                                    <label asp-for="SquareMeter" class="control-label"></label>
+                                    <input asp-for="SquareMeter" class="form-control" />
+                                    <span asp-validation-for="SquareMeter" class="text-danger"></span>
+                                </div>
+                                @if (ViewBag.SubscriptionID != 1)
+                                {
+                                <div class="form-group">
+                                        <label asp-for="VRUrl" class="control-label"></label>
+                                        <input asp-for="VRUrl" class="form-control" />
+                                        <span asp-validation-for="VRUrl" class="text-danger"></span>
+                                    </div>
+                                }
+                                    <div class="form-group col-12 text-center mt-4">
+                                        <input type="submit" value="Create" class="btn btn-primary shadow-0 custom-color" />
+                                </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

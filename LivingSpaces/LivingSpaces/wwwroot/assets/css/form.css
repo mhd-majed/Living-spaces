@@ -1,0 +1,143 @@
+﻿.progress-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.progress-step {
+    text-align: center;
+    position: relative;
+    flex-grow: 1;
+}
+
+    .progress-step:not(:first-child)::before {
+        content: '';
+        position: absolute;
+        top: 25%;
+        left: -50%;
+        width: 100%;
+        height: 4px;
+        z-index: 1;
+        transform: translateY(-50%);
+        background-color: #d1d5d8;
+    }
+
+/* Custom colors for the line segments */
+.line-green:not(:first-child)::before {
+    background-color: #ee626b;
+}
+
+.line-blue:not(:first-child)::before {
+    background-color: #d1d5d8;
+}
+
+/* Custom colors for the circles */
+.step-green .step-circle {
+    background-color: #ee626b;
+}
+
+.step-blue .step-circle {
+    background-color: #ee626b;
+}
+
+.step-red .step-circle {
+    background-color: #d1d5d8;
+}
+
+.step-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #d1d5d8;
+    border-radius: 50%;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    border: 4px solid transparent;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.upload-container {
+    border: 2px dashed #cfcfcf;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    cursor: pointer;
+    position: relative;
+    min-width: 50%;
+}
+
+    .upload-container:hover {
+        border-color: #6c757d;
+    }
+
+    .upload-container i {
+        font-size: 48px;
+        color: #6c757d;
+    }
+
+    .upload-container p {
+        font-size: 16px;
+        color: #6c757d;
+        margin: 10px 0;
+    }
+
+    .upload-container input[type="file"] {
+        display: none;
+    }
+
+.upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .upload-button:hover {
+        background-color: #0056b3;
+    }
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+.upload-preview img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 5px;
+}
+
+.custom-color {
+    background-color: #1e2a30;
+}
+.custom-color:hover {
+    background-color: #ee626b;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin: 0 0 0 auto;
+}

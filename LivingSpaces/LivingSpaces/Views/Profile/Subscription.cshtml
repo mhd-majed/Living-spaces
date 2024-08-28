@@ -1,0 +1,63 @@
+﻿@model LivingSpaces.Models.UserSubscription
+
+<link rel="stylesheet" href="~/assets/css/profile.css">
+
+<div class="custom-container container light-style flex-grow-1 container-p-y">
+    <div class="card overflow-hidden">
+        <div class="row no-gutters row-bordered row-border-light">
+            <div class="col-md-3 pt-0">
+                <div class="list-group list-group-flush account-settings-links">
+                    <a class="list-group-item list-group-item-action " asp-action="Profile">General</a>
+                    <a class="list-group-item list-group-item-action " asp-action="ChangePassword">Change password</a>
+                    <a class="list-group-item list-group-item-action " asp-action="MyProperties">View My Properties</a>
+                    <a class="list-group-item list-group-item-action active" asp-action="Subscription">My Subscription</a>
+                    <a class="list-group-item list-group-item-action" asp-action="MyTours">My Tours</a>
+
+
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="tab-content">
+                    <div class="tab-pane fade active show" id="account-change-password">
+                        <div class="card-body pb-2">
+                            <!-- Subscription Info -->
+                            <h5 class="font-weight-bold mb-3">Subscription Information</h5>
+                            @if (Model != null)
+                            {
+                                <dl class="row">
+                                    <dt class="col-sm-3">Plan Name</dt>
+                                    <dd class="col-sm-9">@Model.SubscriptionPlan.SubscriptionName</dd>
+
+                                    <dt class="col-sm-3">Start Date</dt>
+                                    <dd class="col-sm-9">@Model.StartDate.ToString("d MMM yyyy")</dd>
+
+                                    <dt class="col-sm-3">End Date</dt>
+                                    <dd class="col-sm-9">@Model.EndDate.ToString("d MMM yyyy")</dd>
+
+                                    <dt class="col-sm-3">Status</dt>
+                                    <dd class="col-sm-9">
+                                        @if (Model.IsActive)
+                                        {
+                                            <span class="badge bg-success">Active</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-danger">Inactive</span>
+                                        }
+                                    </dd>
+
+                                    <dt class="col-sm-3">Remaining Listings</dt>
+                                    <dd class="col-sm-9">@Model.RemainingListings</dd>
+                                </dl>
+                            }
+                            else
+                            {
+                                <p>No subscription information available.</p>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,113 @@
+﻿@model LivingSpaces.Models.ListingPhoto
+@{
+    ViewData["Title"] = "Upload Images";
+}
+<link rel="stylesheet" href="~/assets/css/profile.css">
+<link href="~/assets/css/form.css" rel="stylesheet" />
+
+
+<div class="custom-container container flex-grow-1 container-p-y">
+    <div class="card overflow-hidden">
+        <div class="row no-gutters row-bordered row-border-light">
+            <div class="col-md-12">
+                <div class="tab-content">
+                    <div class="tab-pane fade active show" id="account-general">
+                        <hr class="border-light m-0">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="progress-container">
+                                        <div class="progress-step step-green">
+                                            <div class="step-circle">
+                                                <i class="fa-solid fa-pen-to-square" style="color:#1e2a30;"></i>
+                                            </div>
+                                            <p>Enter Details</p>
+                                        </div>
+                                        <div class="progress-step line-green step-blue">
+                                            <div class="step-circle">
+                                                <i class="fa-solid fa-arrow-up-from-bracket " style="color:#1e2a30;"></i>
+                                            </div>
+                                            <p>Upload Photos</p>
+                                        </div>
+                                        <div class="progress-step line-black step-black">
+                                            <div class="step-circle">
+                                                <i class="fa-solid fa-calendar" style="color:#1e2a30;"></i>
+                                            </div>
+                                            <p>Set Calender</p>
+                                        </div>
+                                        <div class="progress-step line-blue step-red">
+                                            <div class="step-circle">
+                                                <i class="fa-solid fa-location-dot" style="color:#1e2a30;"></i>
+                                            </div>
+                                            <p>Set Location</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <form asp-action="UploadImages" enctype="multipart/form-data">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <input type="hidden" asp-for="PropertyListingID" value="@ViewBag.PropertyListingID" />
+                                <div class="form-group">
+                                    <div class="upload-container" onclick="document.getElementById('PhotoFiles').click();">
+                                        <div class="upload-preview">
+                                            <i class="fa fa-cloud-upload-alt"></i>
+                                            <p>Select images or drag here</p>
+                                        </div>
+
+                                        <label for="PhotoFiles" class="upload-button">Select files</label>
+                                        <input type="file" id="PhotoFiles" name="PhotoFiles" multiple />
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-12 text-center mt-4">
+                                    <input type="submit" value="Upload" class="btn btn-primary shadow-0 custom-color" />
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const fileInput = document.getElementById('PhotoFiles');
+        const uploadContainer = document.querySelector('.upload-container');
+        const previewContainer = document.querySelector('.upload-preview');
+
+        fileInput.addEventListener('change', function () {
+            const files = fileInput.files;
+            previewContainer.innerHTML = ''; 
+            Array.from(files).forEach(file => {
+                if (file.type.startsWith('image/')) {
+                    const reader = new FileReader();
+                    reader.onload = function (e) {
+                        const img = document.createElement('img');
+                        img.src = e.target.result;
+                        img.style.width = '100px';
+                        img.style.height = '100px';
+                        img.style.objectFit = 'cover';
+                        img.style.margin = '5px';
+                        previewContainer.appendChild(img);
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
+        });
+    });
+</script>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

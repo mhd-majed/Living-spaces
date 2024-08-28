@@ -1,0 +1,480 @@
+﻿@model LivingSpaces.Models.PropertyListing
+@{
+    var googleMapsApiKey = ViewData["GoogleMapsApiKey"];
+
+    var startTimeSunday = Model.Booking.BookingType == BookingType.Weekly ? Model.Booking.WeeklyBooking.SundayStartTime.ToString(@"hh\:mm") : "";
+    var endTimeSunday = Model.Booking.BookingType == BookingType.Weekly ? Model.Booking.WeeklyBooking.SundayEndTime.ToString(@"hh\:mm") : "";
+
+    var startTimeMonday = Model.Booking.BookingType == BookingType.Weekly ? Model.Booking.WeeklyBooking.MondayStartTime.ToString(@"hh\:mm") : "";
+    var endTimeMonday = Model.Booking.BookingType == BookingType.Weekly ? Model.Booking.WeeklyBooking.MondayEndTime.ToString(@"hh\:mm") : "";
+
+    var startTimeTuesday = Model.Booking.BookingType == BookingType.Weekly ? Model.Booking.WeeklyBooking.TuesdayStartTime.ToString(@"hh\:mm") : "";
+    var endTimeTuesday = Model.Booking.BookingType == BookingType.Weekly ? Model.Booking.WeeklyBooking.TuesdayEndTime.ToString(@"hh\:mm") : "";
+
+    var startTimeWednesday = Model.Booking.BookingType == BookingType.Weekly ? Model.Booking.WeeklyBooking.WednesdayStartTime.ToString(@"hh\:mm") : "";
+    var endTimeWednesday = Model.Booking.BookingType == BookingType.Weekly ? Model.Booking.WeeklyBooking.WednesdayEndTime.ToString(@"hh\:mm") : "";
+
+    var startTimeThursday = Model.Booking.BookingType == BookingType.Weekly ? Model.Booking.WeeklyBooking.ThursdayStartTime.ToString(@"hh\:mm") : "";
+    var endTimeThursday = Model.Booking.BookingType == BookingType.Weekly ? Model.Booking.WeeklyBooking.ThursdayEndTime.ToString(@"hh\:mm") : "";
+
+    var startTimeFriday = Model.Booking.BookingType == BookingType.Weekly ? Model.Booking.WeeklyBooking.FridayStartTime.ToString(@"hh\:mm") : "";
+    var endTimeFriday = Model.Booking.BookingType == BookingType.Weekly ? Model.Booking.WeeklyBooking.FridayEndTime.ToString(@"hh\:mm") : "";
+
+    var startTimeSaturday = Model.Booking.BookingType == BookingType.Weekly ? Model.Booking.WeeklyBooking.SaturdayStartTime.ToString(@"hh\:mm") : "";
+    var endTimeSaturday = Model.Booking.BookingType == BookingType.Weekly ? Model.Booking.WeeklyBooking.SaturdayEndTime.ToString(@"hh\:mm") : "";
+
+    var dailyStartTime = Model.Booking.BookingType == BookingType.Daily ? Model.Booking.DailyBooking.StartTime.ToString(@"hh\:mm") : "";
+    var dailyEndTime = Model.Booking.BookingType == BookingType.Daily ? Model.Booking.DailyBooking.EndTime.ToString(@"hh\:mm") : "";
+}
+
+    <title>Villa Agency - Property Detail Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="~/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="~/assets/css/templatemo-villa-agency.css">
+    <link rel="stylesheet" href="~/assets/css/owl.css">
+    <link rel="stylesheet" href="~/assets/css/animate.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+<style>
+    .info-table .icon-lg {
+        float: left;
+        font-size: 3rem; 
+        margin-right: 25px;
+        color: #ee626b;
+    }
+
+    .main-button {
+        display: inline-block;
+        background-color: #1e2a30 !important;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        height: 40px;
+        line-height: 40px;
+        padding: 0px 30px;
+        transition: all .3s;
+    }
+
+    .main-button:hover {
+        background-color: #ee626b !important;
+        color: #fff;
+    }
+
+    #tourTimeInput {
+        max-height: 100px; 
+        overflow-y: auto; 
+    }
+
+    #map {
+        height: 400px; 
+        width: 100%;
+    }
+
+</style>
+
+    <div class="single-property section">
+        <div class="container">
+        <div class="row">
+            <!-- First row: Carousel and Info Table -->
+            <div class="col-lg-8">
+                <div id="propertyCarousel" class="carousel slide" >
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <!-- First slide with iframe -->
+                    @if (!string.IsNullOrWhiteSpace(Model.VRUrl))
+                    {
+                        <div class="carousel-item active">
+                                <iframe src="@Model.VRUrl" width="100%" height="500" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    }
+                        <!-- Other slides with images -->
+                        @if (Model.ListingPhotos != null && Model.ListingPhotos.Any())
+                        {
+                            var photos = Model.ListingPhotos.ToList();
+                            for (var i = 0; i < photos.Count; i++)
+                            {
+                                var photo = photos[i];
+                            <div class="carousel-item @(Model.VRUrl == null && i == 0 ? "active" : "")">
+                                <img src="@photo.PhotoUrl" class="d-block w-100" alt="Property Image @(i + 1)">
+                            </div>
+                            }
+                        }
+                    </div>
+
+                    <!-- Left and right controls/icons -->
+                    <a class="carousel-control-prev" href="#propertyCarousel" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#propertyCarousel" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="info-table">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-credit-card icon-lg"></i>
+                            <div class="text-info">
+                                <h4>@Model.Price.ToString("c")<br><span>Price</span></h4>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-up-down-left-right icon-lg"></i>
+                            <div class="text-info">
+                            <h4>@Model.SquareMeter m²<br><span>Total Flat Space</span></h4>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-toilet icon-lg"></i>
+                            <div class="text-info">
+                                <h4>@Model.Bathrooms<br><span>Bathrooms</span></h4>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-bed icon-lg"></i>
+                            <div class="text-info">
+                                <h4>@Model.Bedrooms<br><span>Rooms</span></h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br />
+        <!-- Second row: Main content and Info Table -->
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="main-content" >
+                    <span class="category">@Model.PropertyType</span>
+                    <span class="category">@Model.PropertyCategory.CategoryName</span>
+
+                    <div class="main-info">
+                        <h4>@Model.Title</h4>
+                    <h6 style="font-weight:400">@Model.Address.Street @Model.Address.City @Model.Address.State @Model.Address.Country</h6>
+                    <!-- Hidden inputs to store coordinates -->
+                    <input type="hidden" id="latitude" value="@Model.Address.Latitude" />
+                    <input type="hidden" id="longitude" value="@Model.Address.Longitude" />
+                    </div>
+
+                    <p></p>
+                    <p>@Model.Description</p>
+
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="contact-user">
+                    <ul>
+                        
+                        <li>
+                                <a asp-controller="Reviews" asp-action="UserReviews" asp-route-id="@Model.ApplicationUser.Id">
+                                <img src="@Model.ApplicationUser.ProfileImageUrl" alt="@Model.ApplicationUser.UserName" class="user-image" style="width:55px"></a>
+                            <div class="text-info">
+                                <a asp-controller="Reviews" asp-action="UserReviews" asp-route-id="@Model.ApplicationUser.Id">
+                                    <h5>@Model.ApplicationUser.FirstName @Model.ApplicationUser.LastName</h5>
+                                    <p >
+                                        @for (int i = 1; i <= 5; i++)
+                                        {
+                                            if (i <= @Model.ApplicationUser.Statistics.AverageRating)
+                                            {
+                                                <i class="fas fa-star" style="color: gold;"></i>
+                                            }
+                                            else
+                                            {
+                                                <i class="far fa-star" style="color: gold;"></i>
+                                            }
+                                        }    (@Model.ApplicationUser.Statistics.RatingCount)
+                                    </p>
+                                </a>
+                            </div>
+                        </li>
+                        @if (Model.Booking.BookingType != BookingType.NoBooking)
+                        {
+                            <li>
+
+                                <div class="text-info">
+                                    <button type="button" class="btn main-button btn-lg mt-2" data-bs-toggle="modal" data-bs-target="#requestTourModal">Request a Tour</button>
+                                </div>
+                            </li>
+                        }
+                        <li>
+                        <div class="text-info col-10">
+                            <button type="button" class="btn main-button btn-lg mt-2" data-bs-toggle="modal" data-bs-target="#contactAgentModal">Contact Agent</button>
+                        </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8">
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact Agent Modal -->
+<div class="modal fade" id="contactAgentModal" tabindex="-1" aria-labelledby="contactAgentModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactAgentModalLabel">Contact Agent</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="contactAgentForm">
+                    <div class="mb-3">
+                        <label for="messageInput" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="messageInput" name="message" rows="5" required></textarea>
+                    </div>
+                    <input type="hidden" id="recipientUserId" value="@Model.ApplicationUser.Id" />
+                    <input type="hidden" id="PropertyId" value="@Model.PropertyListingID" />
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn main-button" id="sendButton">Send Message</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Request a Tour Modal -->
+<div class="modal fade" id="requestTourModal" tabindex="-1" aria-labelledby="requestTourModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="requestTourModalLabel">Request a Tour</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="requestTourForm">
+                    <div class="mb-3">
+                        <label for="tourDateInput" class="form-label">Preferred Tour Date</label>
+                        <input type="date" class="form-control" id="tourDateInput" name="tourDate" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="tourTimeInput" class="form-label">Preferred Tour Time</label>
+                        <select class="form-control" id="tourTimeInput" name="tourTime" required>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="additionalInfoInput" class="form-label">Additional Information</label>
+                        <textarea class="form-control" id="additionalInfoInput" name="additionalInfo" rows="3"></textarea>
+                    </div>
+                    <input type="hidden" id="PropertyId" value="@Model.PropertyListingID" />
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn main-button" id="requestTourButton">Request Tour</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script>
+
+    document.getElementById('tourDateInput').addEventListener('change', function () {
+        const bookingType = '@Model.Booking.BookingType';
+        let startTime;
+        let endTime;
+
+        if (bookingType === 'Daily') {
+            startTime = '@dailyStartTime';
+            endTime = '@dailyEndTime';
+            populateHourOptions(startTime, endTime);
+
+        } else if (bookingType === 'Weekly') {
+            const dayTimes = {
+                0: { start: "@startTimeSunday", end: "@endTimeSunday" },
+                1: { start: "@startTimeMonday", end: "@endTimeMonday" },
+                2: { start: "@startTimeTuesday", end: "@endTimeTuesday" },
+                3: { start: "@startTimeWednesday", end: "@endTimeWednesday" },
+                4: { start: "@startTimeThursday", end: "@endTimeThursday" },
+                5: { start: "@startTimeFriday", end: "@endTimeFriday" },
+                6: { start: "@startTimeSaturday", end: "@endTimeSaturday" }
+            };
+
+            const dateInput = document.getElementById('tourDateInput');
+            const selectedDate = new Date(dateInput.value);
+            const dayIndex = selectedDate.getDay();
+
+            if (dayTimes[dayIndex]) {
+                startTime = dayTimes[dayIndex].start;
+                endTime = dayTimes[dayIndex].end;
+                populateHourOptions(startTime, endTime);
+            }
+        }
+    });
+
+    function populateHourOptions(startTime, endTime) {
+        const timeSelect = document.getElementById('tourTimeInput'); 
+
+        timeSelect.innerHTML = '';
+
+        const startHour = parseInt(startTime.split(':')[0], 10);
+        const endHour = parseInt(endTime.split(':')[0], 10);
+        console.log(startHour)
+        console.log(endHour)
+
+        for (let hour = startHour; hour < endHour; hour++) {
+            const option = document.createElement('option');
+            const displayHour = hour < 10 ? `0${hour}` : hour;
+            option.value = displayHour;
+            option.textContent = `${displayHour}:00`;
+            timeSelect.appendChild(option);
+        }
+    }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var today = new Date().toISOString().split('T')[0];
+            document.getElementById('tourDateInput').setAttribute('min', today);
+        });
+    document.getElementById('requestTourButton').addEventListener('click', function () {
+        var tourDate = document.getElementById('tourDateInput').value;
+        var tourTime = document.getElementById('tourTimeInput').value;
+        var additionalInfo = document.getElementById('additionalInfoInput').value;
+        var propertyId = document.getElementById('PropertyId').value;
+        var combinedDateTime = new Date(`${tourDate}T${tourTime.padStart(2, '0')}:00:00`);
+        var data = {
+            PropertyListingID: parseInt(propertyId),
+            ScheduledDate: combinedDateTime,
+            Comments: additionalInfo
+        };
+        console.log(data)
+
+        fetch('/PropertyListings/TourRequest', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Success!',
+                        text: 'Tour request successfully submitted!',
+                        confirmButtonText: 'OK'
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+                            document.getElementById('requestTourForm').reset();
+                            var modalElement = document.getElementById('requestTourModal');
+                            var modal = bootstrap.Modal.getInstance(modalElement);
+                            modal.hide();
+                        }
+                    });
+                } else {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error',
+                        text: 'Error: ' + data.message,
+                        confirmButtonText: 'OK'
+                    });
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error',
+                    text: 'An error occurred while submitting the tour request.',
+                    confirmButtonText: 'OK'
+                });
+            });
+    });
+
+    (g => { var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => { await (a = m.createElement("script")); e.set("libraries", [...r] + ""); for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]); e.set("callback", c + ".maps." + q); a.src = `https://maps.${c}apis.com/maps/api/js?` + e; d[q] = f; a.onerror = () => h = n(Error(p + " could not load.")); a.nonce = m.querySelector("script[nonce]")?.nonce || ""; m.head.append(a) })); d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)) })({
+        key: "@googleMapsApiKey",
+        v: "weekly",
+    });
+    let map, marker;
+
+    async function initMap() {
+
+        const initialPosition = { lat: 31.95, lng: 35.91 };
+
+        const { Map } = await google.maps.importLibrary("maps");
+        const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+
+        map = new Map(document.getElementById("map"), {
+            zoom: 18,
+            center: initialPosition,
+            mapId: "DEMO_MAP_ID",
+        });
+
+        map.addListener("click", (e) => {
+            placeMarker(e.latLng);
+        });
+
+        const latInput = document.getElementById("latitude").value;
+        const lngInput = document.getElementById("longitude").value;
+
+        const coordinates = {
+            lat: parseFloat(latInput),
+            lng: parseFloat(lngInput)
+        };
+
+
+        placeMarker(coordinates);
+        map.setCenter(coordinates);
+    }
+
+    function placeMarker(position) {
+        if (!marker) {
+            marker = new google.maps.Marker({
+                position: position,
+                map: map,
+                draggable: true,
+            });
+        } else {
+            marker.setPosition(position);
+        }
+
+
+    }
+    function placeMarker(position) {
+        if (!marker) {
+            marker = new google.maps.Marker({
+                position: position,
+                map: map,
+                draggable: true,
+            });
+        } else {
+            marker.setPosition(position);
+        }
+    }
+    initMap();
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.0/signalr.min.js"></script>
+<script src="~/js/chat.js"></script>
+<!-- Include SweetAlert2 CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+<!-- Include SweetAlert2 JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="~/assets/js/isotope.min.js"></script>
+<script src="~/assets/js/owl-carousel.js"></script>
+<script src="~/assets/js/counter.js"></script>
+<script src="~/assets/js/custom.js"></script>

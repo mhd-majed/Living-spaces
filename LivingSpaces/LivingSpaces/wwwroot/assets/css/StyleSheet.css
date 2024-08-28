@@ -1,0 +1,22 @@
+﻿.properties-items .item {
+    height: 600px;
+}
+
+
+@media (max-width: 767px) {
+
+}
+
+
+@media (max-width: 1400px) {
+
+    .properties-items .item {
+        height: 640px;
+    }
+}
+
+@media (max-width: 992px) {
+    .properties-items .item {
+        height: 640px;
+    }
+}

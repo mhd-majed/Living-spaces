@@ -1,0 +1,215 @@
+﻿@model IEnumerable<LivingSpaces.Models.Tour>
+
+    @{
+    @functions {
+        public string GetStatusClass(string status)
+        {
+            switch (status.ToLower())
+            {
+                case "confirmed":
+                    return "confirmed";
+                case "cancelled":
+                    return "cancelled";
+                case "pending":
+                    return "pending";
+                default:
+                    return "pending"; 
+            }
+        }
+    }
+
+    }
+<link rel="stylesheet" href="~/assets/css/profile.css">
+<style>
+    .scroll-area {
+        height: 600px;
+        overflow-y: scroll;
+    }
+
+    .card-custom {
+        border-radius: 15px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+
+        .card-custom .status-indicator {
+            width: 4px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .card-custom .status-indicator.open {
+            background-color: #ee626b;
+        }
+
+        .card-custom .open-tag {
+
+            font-weight: bold;
+            padding: 2px 8px;
+            border-radius: 5px;
+            font-size: 12px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+            .card-custom .open-tag.confirmed {
+                background-color: #c8e6c9; 
+                color: #388e3c;
+            }
+
+            .card-custom .open-tag.cancelled {
+                background-color: #ffc2c6;
+                color: #ee626b;
+            }
+
+            .card-custom .open-tag.pending {
+                background-color: #ffe0b2; 
+                color: #f57c00; 
+            }
+
+
+        .card-custom .profile-img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+
+        .card-custom .card-body {
+            display: flex;
+            align-items: center;
+        }
+
+            .card-custom .card-body .content {
+                margin-left: 15px;
+            }
+
+                .card-custom .card-body .content p {
+                    margin: 0;
+                }
+
+        .card-custom .time-info {
+            text-align: right;
+            font-size: 12px;
+        }
+
+
+
+    #dropdownMenuButton::after {
+        display: none;
+    }
+
+</style>
+<div class="custom-container container light-style flex-grow-1 container-p-y">
+    <div class="card overflow-hidden">
+        <div class="row no-gutters row-bordered row-border-light">
+            <div class="col-md-3 pt-0">
+                <div class="list-group list-group-flush account-settings-links">
+                    <a class="list-group-item list-group-item-action" asp-action="Profile">General</a>
+                    <a class="list-group-item list-group-item-action" asp-action="ChangePassword">Change password</a>
+                    <a class="list-group-item list-group-item-action active" asp-action="MyProperties">View My Properties</a>
+                    <a class="list-group-item list-group-item-action" asp-action="Subscription">My Subscription</a>
+                    <a class="list-group-item list-group-item-action" asp-action="MyTours">My Tours</a>
+
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="tab-content">
+                    <div class="tab-pane fade active show" id="account-change-password">
+                        <div class="card-body pb-2">
+                            <!-- Display properties as horizontal cards -->
+                            <div class="scroll-area">
+                                <div class="list-group">
+                                    @foreach (var tour in Model)
+                                    {
+                                        <div class="card card-custom">
+                                            <div class="status-indicator open"></div>
+                                            <div class="card-body">
+                                                <img src="@tour.User.ProfileImageUrl" alt="Profile Image" class="profile-img">
+                                                <div class="content">
+                                                    <p class="fw-bold">@tour.User.FirstName @tour.User.FirstName</p>
+                                                    <p class="">@tour.ScheduledDate</p>
+                                                    <p class="text-muted">
+                                                        <i class="bi bi-geo-alt"></i>
+                                                        @if (string.IsNullOrEmpty(tour.Comments))
+                                                        {
+                                                            @:No comment
+                                                        }
+                                                        else
+                                                        {
+                                                            @tour.Comments
+                                                        }
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="open-tag @GetStatusClass(tour.Status)">@tour.Status</div>
+                                            <div class="ms-auto ">
+                                                <div class="dropdown">
+                                                    <button class="btn btn-sm btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                                                        <li>
+                                                            <button type="button" class="dropdown-item" onclick="confirmTour(@tour.TourID)">Confirm</button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button" class="dropdown-item" onclick="cancelTour(@tour.TourID)">Cancel</button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    function confirmTour(tourId) {
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("ConfirmTour", "Profile")', 
+            data: {
+                id: tourId,
+                __RequestVerificationToken: $('input[name="__RequestVerificationToken"]').val() 
+            },
+            success: function () {
+                alert('Tour confirmed successfully.');
+                location.reload(); 
+            },
+            error: function () {
+                alert('Error confirming the tour.');
+            }
+        });
+    }
+
+    function cancelTour(tourId) {
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("CancelTour", "Profile")', 
+            data: {
+                id: tourId,
+                __RequestVerificationToken: $('input[name="__RequestVerificationToken"]').val() 
+            },
+            success: function () {
+                alert('Tour cancelled successfully.');
+                location.reload();
+            },
+            error: function () {
+                alert('Error cancelling the tour.');
+            }
+        });
+    }
+
+</script>

@@ -1,0 +1,239 @@
+﻿@model IEnumerable<LivingSpaces.Models.PropertyListing>
+<link href="~/assets/css/stylesheet.css" rel="stylesheet" />
+    <style>
+    .accordion-button {
+        background-color:#f5f5f5;
+    }
+
+    .accordion-button:not(.collapsed) {
+        background-color: #f5f5f5;
+    }
+
+    .accordion-body{
+        background-color:#fafafa
+    }
+    </style>
+
+<div class="page-heading header-text">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>Properties</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section properties">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <form method="get" asp-action="Properties">
+                    <!-- Toggle button -->
+                    <button class="btn btn-outline-secondary mb-3 w-100 d-lg-none"
+                            type="button"
+                            data-mdb-toggle="collapse"
+                            data-mdb-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span>Show filter</span>
+                    </button>
+
+                    <!-- Collapsible wrapper -->
+                    <div class="collapse card shadow-none d-lg-block mb-5" id="navbarSupportedContent">
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <!-- Listing Type -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button text-dark "
+                                            type="button"
+                                            data-mdb-toggle="collapse"
+                                            data-mdb-target="#panelsStayOpen-collapseOne"
+                                            aria-expanded="true"
+                                            aria-controls="panelsStayOpen-collapseOne">
+                                        Type
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+                                    <div class="accordion-body">
+                                        <div class="form-check">
+                                            <input type="radio" name="listingType" value=""
+                                            @if (string.IsNullOrEmpty(ViewBag.ListingType))
+                                            {
+                                                <text>checked</text>
+                                                ;
+                                            }>
+                                            <label class="form-check-label" for="AllTypes">All Types</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input type="radio" name="listingType" value="For Sale"
+                                            @if (ViewBag.ListingType == "For Sale")
+                                            {
+                                                <text>checked</text>
+                                                ;
+                                            }>
+                                            <label class="form-check-label" for="forSale">For Sale</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input type="radio" name="listingType" value="For Rent"
+                                            @if (ViewBag.ListingType == "For Rent")
+                                            {
+                                                <text>checked</text>
+                                                ;
+                                            }>
+                                            <label class="form-check-label" for="forRent">For Rent</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Categories -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button text-dark "
+                                            type="button"
+                                            data-mdb-toggle="collapse"
+                                            data-mdb-target="#panelsStayOpen-collapseTwo"
+                                            aria-expanded="true"
+                                            aria-controls="panelsStayOpen-collapseTwo">
+                                        Categories
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo">
+                                    <div class="accordion-body">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="selectedCategories" value="Apartments" id="flexCheckChecked1"
+                                            @if (ViewBag.SelectedCategories != null && ViewBag.SelectedCategories.Contains("Apartments"))
+                                            {
+                                                <text>checked</text>
+                                                ;
+                                            } />
+                                            <label class="form-check-label" for="flexCheckChecked1">Apartments</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="selectedCategories" value="Houses" id="flexCheckChecked2"
+                                            @if (ViewBag.SelectedCategories != null && ViewBag.SelectedCategories.Contains("Houses"))
+                                            {
+                                                <text>checked</text>
+                                                ;
+                                            } />
+                                            <label class="form-check-label" for="flexCheckChecked2">Houses</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="selectedCategories" value="Farms" id="flexCheckChecked7"
+                                            @if (ViewBag.SelectedCategories != null && ViewBag.SelectedCategories.Contains("Farms"))
+                                            {
+                                                <text>checked</text>
+                                                ;
+                                            } />
+                                            <label class="form-check-label" for="flexCheckChecked7">Farms</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="selectedCategories" value="Land" id="flexCheckChecked6"
+                                            @if (ViewBag.SelectedCategories != null && ViewBag.SelectedCategories.Contains("Land"))
+                                            {
+                                                <text>checked</text>
+                                                ;
+                                            } />
+                                            <label class="form-check-label" for="flexCheckChecked6">Land</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Price -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button text-dark "
+                                            type="button"
+                                            data-mdb-toggle="collapse"
+                                            data-mdb-target="#panelsStayOpen-collapseThree"
+                                            aria-expanded="false"
+                                            aria-controls="panelsStayOpen-collapseThree">
+                                        Price
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree">
+                                    <div class="accordion-body">
+                                        <div class="row mb-3">
+                                            <div class="col-6">
+                                                <p class="mb-0">Min</p>
+                                                <div class="form-outline">
+                                                    <input type="number" id="minPrice" name="minPrice" class="form-control" value="@ViewBag.MinPrice" />
+                                                    <label class="form-label" for="minPrice"></label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="mb-0">Max</p>
+                                                <div class="form-outline">
+                                                    <input type="number" id="maxPrice" name="maxPrice" class="form-control" value="@ViewBag.MaxPrice" />
+                                                    <label class="form-label" for="maxPrice"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button type="submit" value="Properties" class="btn btn-white w-100 border border-secondary">Apply</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        <div class="col-lg-9">
+
+            <div class="row properties-box">
+                @foreach (var property in Model)
+                {
+                    <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
+
+                        <div class="item">
+                                <a asp-controller="PropertyListings" asp-action="propertyDetails" asp-route-id="@property.PropertyListingID">
+                                @{
+                                    var listingPhotosList = property.ListingPhotos?.ToList();
+                                    var firstPhoto = listingPhotosList != null && listingPhotosList.Count > 0
+                                    ? listingPhotosList[0].PhotoUrl
+                                    : "default-image.jpg";
+                                    var type = "For Sale";
+                                    if (@property.PropertyType == PropertyType.Renting)
+                                    {
+                                        type = "For Rent";
+                                    }
+                                }
+
+                            <div class="ribbon text-center">@type</div>
+                            <img src="@firstPhoto" alt="Property Image" />
+                            <span class="category">@property.PropertyCategory.CategoryName</span>
+                            <h6>@property.Price.ToString("C")</h6>
+                            <h4>@property.Title</h4>
+                            <ul>
+                                <li>Location:<span>@property.Address.City, @property.Address.Country</span></li>
+                                <li>Area: <span>@property.SquareMeter m2</span></li>
+                                <li>Bedrooms: <span>@property.Bedrooms</span></li>
+                                <li>Bathrooms: <span>@property.Bathrooms</span></li>
+                            </ul>
+                            <div class="main-button">
+                                        <a class="Custom-a" asp-controller="PropertyListings" asp-action="propertyDetails" asp-route-id="@property.PropertyListingID">Discover More</a>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                }
+            </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="pagination">
+@*                             <li><a class="is_active" href="#">2</a></li>
+ *@                            @for (var i = 1; i <= ViewBag.TotalPages; i++)
+                            {
+                                <li >
+                                    <a class="@(i == ViewBag.pageNumber ? "is_active" : "")" href="?pageNumber=@i">@i</a>
+                                </li>
+                            }
+
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </div>
+</div>

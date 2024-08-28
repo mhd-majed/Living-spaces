@@ -1,0 +1,142 @@
+﻿@model LivingSpaces.Models.PaymentViewModel
+
+<style>
+    .form-outline input {
+        opacity: 1 !important; /* Example of an overriding style */
+    }
+
+    body {
+        background-color: #f5f5f5;
+    }
+
+    .cutom-bg{
+        background-color: #fafafa;
+    }
+
+    .container-top-padding {
+        padding-top: 60px; 
+    }
+
+    .rounded-border{
+        border-radius: 10px;
+    }
+</style>
+
+<section class=" py-5">
+    <div class="container container-top-padding">
+        <div class="row">
+            <div class="col-xl-8 col-lg-8 mb-4">
+                <!-- Checkout -->
+                <div class="card border-0 rounded-5 border">
+                    <div class="p-4 cutom-bg rounded-5">
+                        <h5 class="card-title mb-3">Payment Methods</h5>
+                        <form method="post" asp-action="Checkout">
+                            <input asp-for="SubscriptionPlanId" type="hidden" value="@ViewBag.Id" />
+                            <div class="row">
+                                <div class="col-6 mb-3">
+                                    <p class="mb-0">Card Number</p>
+                                    <div class="form-outline">
+                                        <input asp-for="CardNumber" type="text" placeholder="Enter your card number" class="form-control" />
+                                    </div>
+                                    <span asp-validation-for="CardNumber" class="text-danger"></span>
+                                </div>
+
+                                <div class="col-6">
+                                    <p class="mb-0">Cardholder Name</p>
+                                    <div class="form-outline">
+                                        <input asp-for="CardholderName" type="text" placeholder="Enter cardholder's name" class="form-control" />
+                                    </div>
+                                    <span asp-validation-for="CardholderName" class="text-danger"></span>
+
+                                </div>
+
+                                <div class="col-6 mb-3">
+                                    <p class="mb-0">Expiry Date</p>
+                                    <div class="form-outline">
+                                        <input asp-for="ExpiryDate" type="text" class="form-control" placeholder="MM/YY" />
+                                    </div>
+                                    <span asp-validation-for="ExpiryDate" class="text-danger"></span>
+                                </div>
+
+                                <div class="col-6 mb-3">
+                                    <p class="mb-0">CVV</p>
+                                    <div class="form-outline">
+                                        <input asp-for="CVVNumber" type="text" placeholder="3 Digits" class="form-control" />
+                                    </div>
+                                    <span asp-validation-for="CVVNumber" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <hr class="my-4" />
+
+                            <div class="row">
+                                <div class="col-sm-6 mb-3">
+                                    <p class="mb-0">Address</p>
+                                    <div class="form-outline">
+                                        <input asp-for="State" type="text" placeholder="Type here" class="form-control" />
+                                    </div>
+                                    <span asp-validation-for="State" class="text-danger"></span>
+
+                                </div>
+
+                                <div class="col-sm-6 mb-3">
+                                    <p class="mb-0">City</p>
+                                    <div class="form-outline">
+                                        <input asp-for="City" type="text" placeholder="Type here" class="form-control" />
+                                    </div>
+                                    <span asp-validation-for="City" class="text-danger"></span>
+
+                                </div>
+
+                                <div class="col-sm-6 mb-3">
+                                    <p class="mb-0">House</p>
+                                    <div class="form-outline">
+                                        <input asp-for="Street" type="text" placeholder="Type here" class="form-control" />
+                                    </div>
+                                    <span asp-validation-for="Street" class="text-danger"></span>
+
+                                </div>
+
+                                <div class="col-sm-6 col-6 mb-3">
+                                    <p class="mb-0">Postal Code</p>
+                                    <div class="form-outline">
+                                        <input asp-for="PostalCode" type="text" placeholder="Enter your postal code" class="form-control" />
+                                    </div>
+                                    <span asp-validation-for="PostalCode" class="text-danger"></span>
+
+                                </div>
+
+
+                            </div>
+                            <div class="float-end">
+                                <button type="button" class="btn btn-light border">Cancel</button>
+                                <button type="submit" class="btn btn-success shadow-0 border">Continue</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- Checkout -->
+            </div>
+
+            <div class="col-xl-4 col-lg-4 d-flex justify-content-center justify-content-lg-end">
+                <div class="ms-lg-4 mt-4 mt-lg-0" style="max-width: 320px; width: 320px;">
+                    <h6 class="mb-3">Summary</h6>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-2">Price:</p>
+                        <p class="mb-2">@ViewBag.Price.ToString("c")</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-2">Tax:</p>
+                        <p class="mb-2">@Math.Ceiling(ViewBag.Price / 10).ToString("c")</p>
+                    </div>
+                    <hr />
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-2">Total price:</p>
+                        <p class="mb-2 fw-bold">@((Math.Ceiling(ViewBag.Price / 10) + ViewBag.Price).ToString("c"))</p>
+                    </div>
+                    <hr />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

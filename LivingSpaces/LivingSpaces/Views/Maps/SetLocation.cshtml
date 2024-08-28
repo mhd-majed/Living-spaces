@@ -1,0 +1,222 @@
+﻿@model LivingSpaces.ViewModels.AddressViewModel
+@{
+    var googleMapsApiKey = ViewData["GoogleMapsApiKey"];
+    var successMessage = TempData["SuccessMessage"] as string;
+    var redirectUrl = TempData["RedirectUrl"] as string;
+}
+<link rel="stylesheet" href="~/assets/css/profile.css">
+<link href="~/assets/css/form.css" rel="stylesheet" />
+
+ <style>
+
+
+    .line-green:not(:first-child)::before {
+        background-color: #ee626b;
+    }
+
+    .line-blue:not(:first-child)::before {
+        background-color: #ee626b;
+    }
+
+    .step-green .step-circle {
+        background-color: #ee626b;
+    }
+
+    .step-blue .step-circle {
+        background-color: #ee626b;
+    }
+
+    .step-red .step-circle {
+        background-color: #ee626b;
+    }
+
+    .step-black .step-circle {
+        background-color: #ee626b;
+    }
+
+    .line-black:not(:first-child)::before {
+        background-color: #ee626b;
+    }
+
+</style> 
+
+<div class="custom-container container light-style flex-grow-1 container-p-y">
+    <div class="card overflow-hidden">
+        <div class="row no-gutters row-bordered row-border-light">
+            <div class="col-md-12">
+                <div class="tab-content">
+                    <div class="tab-pane fade active show" id="account-general">
+                        <hr class="border-light m-0">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="progress-container">
+                                        <div class="progress-step step-green">
+                                            <div class="step-circle">
+                                                <i class="fa-solid fa-pen-to-square" style="color:#1e2a30;"></i>
+                                            </div>
+                                            <p>Enter Details</p>
+                                        </div>
+                                        <div class="progress-step line-green step-blue">
+                                            <div class="step-circle">
+                                                <i class="fa-solid fa-arrow-up-from-bracket " style="color:#1e2a30;"></i>
+                                            </div>
+                                            <p>Upload Photos</p>
+                                        </div>
+                                        <div class="progress-step line-black step-black">
+                                            <div class="step-circle">
+                                                <i class="fa-solid fa-calendar" style="color:#1e2a30;"></i>
+                                            </div>
+                                            <p>Set Calender</p>
+                                        </div>
+                                        <div class="progress-step line-blue step-red">
+                                            <div class="step-circle">
+                                                <i class="fa-solid fa-location-dot" style="color:#1e2a30;"></i>
+                                            </div>
+                                            <p>Set Location</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div id="map"></div>
+
+
+                                </div>
+                                <div class="col-md-4">
+                                    <form id="locationForm" method="post" asp-action="SetLocation">
+                                        <input type="hidden" asp-for="PropertyListingID" value="@ViewBag.PropertyListingID" />
+
+                                        <input type="hidden" id="latitude" name="latitude" />
+                                        <input type="hidden" id="longitude" name="longitude" />
+                                        <div class="form-group">
+                                            <label for="Street">Street</label>
+                                            <input type="text" id="Street" name="Street" class="form-control" />
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="City">City</label>
+                                            <input type="text" id="City" name="City" class="form-control" />
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="State">State</label>
+                                            <input type="text" id="State" name="State" class="form-control" />
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="Country">Country</label>
+                                            <input type="text" id="country" name="country" class="form-control" />
+                                        </div>
+
+                                        <div class="form-group col-12 text-center mt-4">
+                                            <input type="submit" value="Submit Location" class="btn btn-primary shadow-0 custom-color" />
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Show success message if it exists
+    document.addEventListener("DOMContentLoaded", function () {
+        var successMessage = "@successMessage";
+        if (successMessage) {
+            Swal.fire({
+                title: 'Success!',
+                text: successMessage,
+                icon: 'success',
+                timer: 2000,
+                timerProgressBar: true,
+                willClose: () => {
+                    window.location.href = '@redirectUrl';
+                }
+            });
+        }
+    });
+
+
+    (g => { var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => { await (a = m.createElement("script")); e.set("libraries", [...r] + ""); for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]); e.set("callback", c + ".maps." + q); a.src = `https://maps.${c}apis.com/maps/api/js?` + e; d[q] = f; a.onerror = () => h = n(Error(p + " could not load.")); a.nonce = m.querySelector("script[nonce]")?.nonce || ""; m.head.append(a) })); d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)) })({
+        key: "@googleMapsApiKey",
+        v: "weekly",
+    });
+    let map, marker;
+
+    async function initMap() {
+        const initialPosition = { lat: 31.95, lng: 35.91 };
+
+        const { Map } = await google.maps.importLibrary("maps");
+        const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+
+        map = new Map(document.getElementById("map"), {
+            zoom: 13,
+            center: initialPosition,
+            mapId: "DEMO_MAP_ID",
+        });
+
+        map.addListener("click", (e) => {
+            placeMarker(e.latLng);
+        });
+    }
+
+    function placeMarker(position) {
+        if (!marker) {
+            marker = new google.maps.Marker({
+                position: position,
+                map: map,
+                draggable: true,
+            });
+        } else {
+            marker.setPosition(position);
+        }
+        reverseGeocode(position);
+        document.getElementById("latitude").value = position.lat();
+        document.getElementById("longitude").value = position.lng();
+
+        console.log("Marker placed at:", position.lat(), position.lng());
+    }
+    async function reverseGeocode(position) {
+        const apiKey = "@googleMapsApiKey";
+        const requestUri = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${position.lat()},${position.lng()}&key=${apiKey}`;
+
+        try {
+            const response = await fetch(requestUri);
+            const data = await response.json();
+
+            if (data.status === "OK") {
+                const result = data.results[0];
+                const addressComponents = result.address_components;
+
+                const route = addressComponents.find(c => c.types.includes("route"))?.long_name || "";
+                const locality = addressComponents.find(c => c.types.includes("locality"))?.long_name || "";
+                const administrativeAreaLevel1 = addressComponents.find(c => c.types.includes("administrative_area_level_1"))?.long_name || "";
+                const country = addressComponents.find(c => c.types.includes("country"))?.long_name || "";
+
+                document.getElementById("Street").value = route;
+                document.getElementById("City").value = locality;
+                document.getElementById("State").value = administrativeAreaLevel1;
+                document.getElementById("country").value = country;
+            } else {
+                console.error("Geocoding failed:", data.status);
+            }
+        } catch (error) {
+            console.error("Error during reverse geocoding:", error);
+        }
+    }
+
+    initMap();
+</script>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

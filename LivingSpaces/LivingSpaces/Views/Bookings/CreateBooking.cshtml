@@ -1,0 +1,240 @@
+﻿@model LivingSpaces.ViewModels.BookingViewModel
+
+<link rel="stylesheet" href="~/assets/css/profile.css">
+<link href="~/assets/css/form.css" rel="stylesheet" />
+
+ <style>
+
+    .line-green:not(:first-child)::before {
+        background-color: #ee626b;
+    }
+
+    .line-blue:not(:first-child)::before {
+        background-color: #d1d5d8;
+    }
+
+    .line-black:not(:first-child)::before {
+        background-color: #ee626b;
+    }
+
+    .step-green .step-circle {
+        background-color: #ee626b;
+    }
+
+    .step-blue .step-circle {
+        background-color: #ee626b;
+    }
+
+    .step-red .step-circle {
+        background-color: #d1d5d8;
+    }
+
+    .step-black .step-circle {
+        background-color: #ee626b;
+    }
+    </style>
+
+<div class="custom-container container light-style flex-grow-1 container-p-y">
+    <div class="card overflow-hidden">
+        <div class="row no-gutters row-bordered row-border-light">
+            <div class="col-md-12">
+                <div class="tab-content">
+                    <div class="tab-pane fade active show" id="account-general">
+                        <hr class="border-light m-0">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="progress-container">
+                                        <div class="progress-step step-green">
+                                            <div class="step-circle">
+                                                <i class="fa-solid fa-pen-to-square" style="color:#1e2a30;"></i>
+                                            </div>
+                                            <p>Enter Details</p>
+                                        </div>
+                                        <div class="progress-step line-green step-blue">
+                                            <div class="step-circle">
+                                                <i class="fa-solid fa-arrow-up-from-bracket " style="color:#1e2a30;"></i>
+                                            </div>
+                                            <p>Upload Photos</p>
+                                        </div>
+                                        <div class="progress-step line-black step-black">
+                                            <div class="step-circle">
+                                                <i class="fa-solid fa-calendar" style="color:#1e2a30;"></i>
+                                            </div>
+                                            <p>Set Calender</p>
+                                        </div>
+                                        <div class="progress-step line-blue step-red">
+                                            <div class="step-circle">
+                                                <i class="fa-solid fa-location-dot" style="color:#1e2a30;"></i>
+                                            </div>
+                                            <p>Set Location</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <form asp-action="CreateBooking">
+                                <input type="hidden" asp-for="PropertyListingID" value="@ViewBag.PropertyListingID" />
+
+                                <div class="row">
+                                    <!-- Booking Type Selection -->
+                                    <div class="form-group col-12">
+                                        <label asp-for="BookingType" class="control-label"></label>
+                                        <select asp-for="BookingType" class="form-control" id="BookingType">
+                                            <option value="NoBooking">No Booking</option>
+                                            <option value="Daily">Daily</option>
+                                            <option value="Weekly">Weekly</option>
+                                        </select>
+                                        <span asp-validation-for="BookingType" class="text-danger"></span>
+                                    </div>
+                                        <!-- Daily Booking Fields -->
+                                    <div id="daily-booking-fields"  style="display:none;">
+                                        <h4>Daily Booking</h4>
+                                        <div class="row">
+                                            <div class="form-group col-6">
+                                                <label asp-for="DailyStartTime" class="control-label"></label>
+                                                <input asp-for="DailyStartTime" class="form-control" type="time" step="3600" />
+                                                <span asp-validation-for="DailyStartTime" class="text-danger"></span>
+                                            </div>
+                                            <div class="form-group col-6">
+                                                <label asp-for="DailyEndTime" class="control-label"></label>
+                                                <input asp-for="DailyEndTime" class="form-control" type="time" step="3600" />
+                                                <span asp-validation-for="DailyEndTime" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Weekly Booking Fields -->
+                                    <div id="weekly-booking-fields" class="col-12" style="display:none;">
+                                        <h4>Weekly Booking</h4>
+                                        <div class="row">
+                                            <!-- Monday -->
+                                            <div class="form-group col-6">
+                                                <label>Monday Start Time</label>
+                                                <input asp-for="MondayStartTime" class="form-control" type="time" step="3600" />
+                                            </div>
+                                            <div class="form-group col-6">
+                                                <label>Monday End Time</label>
+                                                <input asp-for="MondayEndTime" class="form-control" type="time" step="3600" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <!-- Tuesday -->
+                                            <div class="form-group col-6">
+                                                <label>Tuesday Start Time</label>
+                                                <input asp-for="TuesdayStartTime" class="form-control" type="time" step="3600" />
+                                            </div>
+                                            <div class="form-group col-6">
+                                                <label>Tuesday End Time</label>
+                                                <input asp-for="TuesdayEndTime" class="form-control" type="time" step="3600" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <!-- Wednesday -->
+                                            <div class="form-group col-6">
+                                                <label>Wednesday Start Time</label>
+                                                <input asp-for="WednesdayStartTime" class="form-control" type="time" step="3600" />
+                                            </div>
+                                            <div class="form-group col-6">
+                                                <label>Wednesday End Time</label>
+                                                <input asp-for="WednesdayEndTime" class="form-control" type="time" step="3600" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <!-- Thursday -->
+                                            <div class="form-group col-6">
+                                                <label>Thursday Start Time</label>
+                                                <input asp-for="ThursdayStartTime" class="form-control" type="time" step="3600" />
+                                            </div>
+                                            <div class="form-group col-6">
+                                                <label>Thursday End Time</label>
+                                                <input asp-for="ThursdayEndTime" class="form-control" type="time" step="3600" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <!-- Friday -->
+                                            <div class="form-group col-6">
+                                                <label>Friday Start Time</label>
+                                                <input asp-for="FridayStartTime" class="form-control" type="time" step="3600" />
+                                            </div>
+                                            <div class="form-group col-6">
+                                                <label>Friday End Time</label>
+                                                <input asp-for="FridayEndTime" class="form-control" type="time" step="3600" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <!-- Saturday -->
+                                            <div class="form-group col-6">
+                                                <label>Saturday Start Time</label>
+                                                <input asp-for="SaturdayStartTime" class="form-control" type="time" step="3600" />
+                                            </div>
+                                            <div class="form-group col-6">
+                                                <label>Saturday End Time</label>
+                                                <input asp-for="SaturdayEndTime" class="form-control" type="time" step="3600" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <!-- Sunday -->
+                                            <div class="form-group col-6">
+                                                <label>Sunday Start Time</label>
+                                                <input asp-for="SundayStartTime" class="form-control" type="time" step="3600" />
+                                            </div>
+                                            <div class="form-group col-6">
+                                                <label>Sunday End Time</label>
+                                                <input asp-for="SundayEndTime" class="form-control" type="time" step="3600" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="form-group col-12 text-center mt-4">
+                                        <input type="submit" value="Create Booking" class="btn btn-primary shadow-0 custom-color" />
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script >
+
+        // Function to toggle the visibility of booking fields based on the selected booking type
+        function toggleBookingFields() {
+            // Get the selected booking type
+            var bookingType = this.value;
+
+            // Get references to the fields
+            var dailyFields = document.getElementById('daily-booking-fields');
+            var weeklyFields = document.getElementById('weekly-booking-fields');
+
+            // Toggle visibility based on the selected booking type
+            if (bookingType === 'Daily') {
+                dailyFields.style.display = 'block';
+                weeklyFields.style.display = 'none';
+            } else if (bookingType === 'Weekly') {
+                dailyFields.style.display = 'none';
+                weeklyFields.style.display = 'block';
+            } else {
+                dailyFields.style.display = 'none';
+                weeklyFields.style.display = 'none';
+            }
+        }
+
+        // Initialize and set up event listener for booking type change
+        document.getElementById("BookingType").addEventListener('change', toggleBookingFields);
+        
+    </script>
+}
+
+            

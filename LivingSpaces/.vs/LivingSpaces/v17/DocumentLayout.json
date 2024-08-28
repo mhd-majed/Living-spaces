@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A17C73A7-10AA-4267-A0EE-9489127155DD}|LivingSpaces\\LivingSpaces.csproj|c:\\users\\hmaje\\desktop\\final project\\livingspaces\\livingspaces\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A17C73A7-10AA-4267-A0EE-9489127155DD}|LivingSpaces\\LivingSpaces.csproj|solutionrelative:livingspaces\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A17C73A7-10AA-4267-A0EE-9489127155DD}|LivingSpaces\\LivingSpaces.csproj|c:\\users\\hmaje\\desktop\\final project\\livingspaces\\livingspaces\\controllers\\propertylistingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A17C73A7-10AA-4267-A0EE-9489127155DD}|LivingSpaces\\LivingSpaces.csproj|solutionrelative:livingspaces\\controllers\\propertylistingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A17C73A7-10AA-4267-A0EE-9489127155DD}|LivingSpaces\\LivingSpaces.csproj|c:\\users\\hmaje\\desktop\\final project\\livingspaces\\livingspaces\\models\\propertycategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A17C73A7-10AA-4267-A0EE-9489127155DD}|LivingSpaces\\LivingSpaces.csproj|solutionrelative:livingspaces\\models\\propertycategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A17C73A7-10AA-4267-A0EE-9489127155DD}|LivingSpaces\\LivingSpaces.csproj|c:\\users\\hmaje\\desktop\\final project\\livingspaces\\livingspaces\\views\\propertylistings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A17C73A7-10AA-4267-A0EE-9489127155DD}|LivingSpaces\\LivingSpaces.csproj|solutionrelative:livingspaces\\views\\propertylistings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A17C73A7-10AA-4267-A0EE-9489127155DD}|LivingSpaces\\LivingSpaces.csproj|c:\\users\\hmaje\\desktop\\final project\\livingspaces\\livingspaces\\wwwroot\\admin\\css\\js\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A17C73A7-10AA-4267-A0EE-9489127155DD}|LivingSpaces\\LivingSpaces.csproj|solutionrelative:livingspaces\\wwwroot\\admin\\css\\js\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A17C73A7-10AA-4267-A0EE-9489127155DD}|LivingSpaces\\LivingSpaces.csproj|c:\\users\\hmaje\\desktop\\final project\\livingspaces\\livingspaces\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A17C73A7-10AA-4267-A0EE-9489127155DD}|LivingSpaces\\LivingSpaces.csproj|solutionrelative:livingspaces\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A17C73A7-10AA-4267-A0EE-9489127155DD}|LivingSpaces\\LivingSpaces.csproj|c:\\users\\hmaje\\desktop\\final project\\livingspaces\\livingspaces\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A17C73A7-10AA-4267-A0EE-9489127155DD}|LivingSpaces\\LivingSpaces.csproj|solutionrelative:livingspaces\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A17C73A7-10AA-4267-A0EE-9489127155DD}|LivingSpaces\\LivingSpaces.csproj|c:\\users\\hmaje\\desktop\\final project\\livingspaces\\livingspaces\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A17C73A7-10AA-4267-A0EE-9489127155DD}|LivingSpaces\\LivingSpaces.csproj|solutionrelative:livingspaces\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A17C73A7-10AA-4267-A0EE-9489127155DD}|LivingSpaces\\LivingSpaces.csproj|c:\\users\\hmaje\\desktop\\final project\\livingspaces\\livingspaces\\models\\usersubscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A17C73A7-10AA-4267-A0EE-9489127155DD}|LivingSpaces\\LivingSpaces.csproj|solutionrelative:livingspaces\\models\\usersubscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\appsettings.json",
+              "RelativeDocumentMoniker": "LivingSpaces\\appsettings.json",
+              "ToolTip": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\appsettings.json",
+              "RelativeToolTip": "LivingSpaces\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-28T16:52:23.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PropertyCategory.cs",
+              "DocumentMoniker": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\Models\\PropertyCategory.cs",
+              "RelativeDocumentMoniker": "LivingSpaces\\Models\\PropertyCategory.cs",
+              "ToolTip": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\Models\\PropertyCategory.cs",
+              "RelativeToolTip": "LivingSpaces\\Models\\PropertyCategory.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T07:34:20.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PropertyListingsController.cs",
+              "DocumentMoniker": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\Controllers\\PropertyListingsController.cs",
+              "RelativeDocumentMoniker": "LivingSpaces\\Controllers\\PropertyListingsController.cs",
+              "ToolTip": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\Controllers\\PropertyListingsController.cs",
+              "RelativeToolTip": "LivingSpaces\\Controllers\\PropertyListingsController.cs",
+              "ViewState": "AQIAABoBAAAAAAAAAAAIwCgBAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T07:33:37.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\Views\\PropertyListings\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LivingSpaces\\Views\\PropertyListings\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\Views\\PropertyListings\\Edit.cshtml",
+              "RelativeToolTip": "LivingSpaces\\Views\\PropertyListings\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T07:33:00.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "admin.js",
+              "DocumentMoniker": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\js\\admin.js",
+              "RelativeDocumentMoniker": "LivingSpaces\\wwwroot\\admin\\css\\js\\admin.js",
+              "ToolTip": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\wwwroot\\admin\\css\\js\\admin.js",
+              "RelativeToolTip": "LivingSpaces\\wwwroot\\admin\\css\\js\\admin.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-26T19:06:09.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserSubscription.cs",
+              "DocumentMoniker": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\Models\\UserSubscription.cs",
+              "RelativeDocumentMoniker": "LivingSpaces\\Models\\UserSubscription.cs",
+              "ToolTip": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\Models\\UserSubscription.cs",
+              "RelativeToolTip": "LivingSpaces\\Models\\UserSubscription.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T18:42:41.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "LivingSpaces\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "LivingSpaces\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T18:41:08.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "LivingSpaces\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "LivingSpaces\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAI4AAAAAAAAAAIAwwKUAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T18:32:19.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "LivingSpaces\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hmaje\\Desktop\\final project\\LivingSpaces\\LivingSpaces\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "LivingSpaces\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAAAJkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T18:26:56.61Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
